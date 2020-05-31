@@ -1,3 +1,94 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*farver*/
+.black{
+    color: #2E2E2E;
+}
+.blue-border{
+    color: #57C7F2;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+.white-blue{
+    color: #F7F9FF;
+}
+.beige{
+    color: #D9CFC7;
+}
+.dark-blue{
+    color: #0A2463;
+}
+.nav > ul{
+    float: right;
+    margin-right: 20px;
+}
+.nav > ul > li{
+   list-style-type: none;
+   text-transform: uppercase;
+   display: inline-block;
+   padding-left: 5px;
+}
+.nav{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+}
+
+/*link styling*/
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #57C7F2;
+}
+
+/*FORSIDE*/
+
+.nav{grid-area: nav;}
+.hero-video{grid-area: hero-video;}
+
+.grid-forside{
+    display: grid;
+    grid-template-areas: 
+    'nav nav'
+    'hero-video hero-video';
+
+}
+
+/*hero video*/
+
+
+
+/*BENEFITS*/
+/*BOOTCAMPS*/
+/*GIRLS BOOTCAMP*/
+/*HANDELSBETINGELSER*/
+/*HOLDBESKRIVELSER*/
+/*HOLDPLAN*/
+/*INTROFORLØB*/
+/*KOSTVEJLEDNING*/
+/*MEDLEMSBETINGELSER*/
+/*NYE MEDLEMMER*/
+/*OM CFAA*/
+/*PERSONLIG TRÆNING*/
+/*PRISER*/
+/*REGLER*/
+/*SHOP*/
+/*VIRKSOMHED*/
+
+
+
 h1{
     color: green;
     font-family: 'Oswald', sans-serif;
