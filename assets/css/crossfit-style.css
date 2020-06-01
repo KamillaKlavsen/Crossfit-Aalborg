@@ -7,7 +7,7 @@ body{
     padding: 0;
 }
 
-/*farver*/
+/*------------------farver------------------*/
 .black{
     color: #2E2E2E;
 }
@@ -31,7 +31,7 @@ body{
 .dark-blue{
     color: #0A2463;
 }
-/*NAVIGATION*/
+/*------------------NAVIGATION------------------*/
 
 .nav > ul{
     float: right;
@@ -49,7 +49,7 @@ body{
     width: 100vw;
 }
 
-/*link styling*/
+/*------------------link styling------------------*/
 a{
     text-decoration: none;
     color: white;
@@ -58,7 +58,7 @@ a:hover{
     color: #57C7F2;
 }
 
-/*FORSIDE*/
+/*------------------FORSIDE------------------*/
 
 .nav{grid-area: nav;}
 .hero-video{grid-area: hero-video;}
@@ -75,11 +75,12 @@ a:hover{
 
 }
 
-/*hero video*/
+/*------------------hero video------------------*/
 .hero-video{
     width: 100vw;
 }
-/*sektion livskvalitet*/
+
+/*------------------sektion livskvalitet------------------*/
 .livskvalitet{
     height: 708px;
     width: 100vw;
@@ -100,22 +101,22 @@ a:hover{
 
 
 
-/*BENEFITS*/
-/*BOOTCAMPS*/
-/*GIRLS BOOTCAMP*/
-/*HANDELSBETINGELSER*/
-/*HOLDBESKRIVELSER*/
-/*HOLDPLAN*/
-/*INTROFORLØB*/
-/*KOSTVEJLEDNING*/
-/*MEDLEMSBETINGELSER*/
-/*NYE MEDLEMMER*/
-/*OM CFAA*/
-/*PERSONLIG TRÆNING*/
-/*PRISER*/
-/*REGLER*/
-/*SHOP*/
-/*VIRKSOMHED*/
+/*------------------Fordele------------------*/
+/*------------------BOOTCAMPS------------------*/
+/*------------------GIRLS BOOTCAMP------------------*/
+/*------------------HANDELSBETINGELSER------------------*/
+/*------------------HOLDBESKRIVELSER------------------*/
+/*------------------HOLDPLAN------------------*/
+/*------------------INTROFORLØB------------------*/
+/*------------------KOSTVEJLEDNING------------------*/
+/*------------------MEDLEMSBETINGELSER------------------*/
+/*------------------NYE MEDLEMMER------------------*/
+/*------------------OM CFAA------------------*/
+/*------------------PERSONLIG TRÆNING------------------*/
+/*------------------PRISER------------------*/
+/*------------------REGLER------------------*/
+/*------------------SHOP------------------*/
+/*------------------VIRKSOMHED------------------*/
 
 
 
