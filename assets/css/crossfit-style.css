@@ -95,8 +95,12 @@ p {
 }
 .nav {
     background-color: var(--dark-section);
-    height: 50px;
-    width: 100vw;
+    height: 135px;
+    max-width: 100%;
+}
+.opret{
+    color: var(--white);
+    background-color: var(--blue);
 }
 
 /*------------------link styling------------------*/
@@ -138,26 +142,33 @@ a:hover{
 
 /*------------------hero video------------------*/
 .hero-video{
-    width: 100vw;
+    max-width: 100%;
+    height: auto;
 }
 
 /*------------------sektion livskvalitet------------------*/
 .livskvalitet{
     height: 708px;
-    width: 100vw;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 150px;
 }
 
 .img-forside{
-    height: 593px;
-    width: 959px;
+    /*10px af 12 gange reduceret ned i størrelse*/
+    height: 473px;
+    width: 839px;
 }
 
 .box{
-    height: 708px;
-    width: 1072px;
-    /* z-index: -4px; */
+    /*10px af 12 gange reduceret ned i størrelse*/
+    height: 588px;
+    width: 952px;
+    z-index: -4;
+    position: absolute;
+    transform: translate(535px, -50px);
+    padding-left: 450px;
 }
 
 
