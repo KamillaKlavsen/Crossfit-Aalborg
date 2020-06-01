@@ -14,6 +14,8 @@ h1 {
     font-weight: 400;
     color: var(--white);
     text-align: center;
+    padding: 14vh;
+    margin: 0;
 }
 
 h2 {
@@ -28,6 +30,7 @@ h3 {
     font-size: 40px;
     font-weight: 400;
     color: black;
+    margin: 0;
 }
 
 h4 {
@@ -101,20 +104,28 @@ p {
 .opret{
     color: var(--white);
     background-color: var(--blue);
+    height: 65px;
+    /*width: 100vw;*/
 }
 
 /*------------------link styling------------------*/
+/* Denne er for generel og vil skabe problemer med andre links*/
 a {
     text-decoration: none;
-    color: var(--white);
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    /*font-weight: 400;
+    color: var(--white);*/
 }
 a:hover{
     color: var(--blue);
 }
 
+.button {
+    height: 53px;
+    width: 202px;
+    border: 3px solid var(--blue);
+}
 
 /* hero billeder */
 .hero {
@@ -177,10 +188,40 @@ a:hover{
     background-image: url(../images/hero/hero-billede4.png);
 }
 
+.pris-box {
+    padding: 60px 228px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.pris-box > article{
+    width: 33%;
+    height: 538px;
+    background-color: var(--beige);
+    text-align: center;
+    padding: 3% 6%;
+}
 
+.pris-box > article:nth-child(even) {
+    background-color: #E8DFD8;
+}
 
+.medlemspris {
+    font-size: 50px;
+}
 
+.pris-box > article > a > .button {
+    margin: auto;
+}
+
+.button > p {
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.blue-box {
+    background-color: var(--blue) !important;
+}
 
 
 /*------------------Fordele------------------*/
