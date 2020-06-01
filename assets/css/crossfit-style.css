@@ -98,8 +98,8 @@ p {
 }
 .nav {
     background-color: var(--dark-section);
-    height: 50px;
-    width: 100vw;
+    height: 65px;
+    /*width: 100vw;*/
 }
 
 /*------------------link styling------------------*/
