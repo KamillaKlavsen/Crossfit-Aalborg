@@ -140,7 +140,9 @@ a:hover{
 .nav{grid-area: nav;}
 .hero-video{grid-area: hero-video;}
 .livskvalitet{grid-area: livskvalitet;}
+.three-boxes{grid-area: three-boxes;}
 .footer-forside{grid-area: footer-forside;}
+
 
 .grid-forside{
     display: grid;
@@ -148,23 +150,25 @@ a:hover{
     'nav nav'
     'hero-video hero-video'
     'livskvalitet livskvalitet'
+    'three-boxes three-boxes'
     'footer-forside footer-forside';
 
 }
 
 /*------------------hero video------------------*/
 .hero-video{
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 }
 
 /*------------------sektion livskvalitet------------------*/
 .livskvalitet{
-    height: 708px;
+    /*10px af 8 gange reduceret ned i størrelse*/
+    height: 628px;
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .img-forside{
@@ -182,6 +186,38 @@ a:hover{
     transform: translate(535px, -50px);
     padding-left: 400px;
 }
+/*------------------sektion tre bokse------------------*/
+.three-boxes{
+    /*10px af 22 gange reduceret ned i størrelse*/
+    height: 400px;
+    width: 100%;
+    background-color: var(--dark-section);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    /*center center herunder gør, at boksene er centreret fuldstændig*/
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.black-box{
+    background-color: #0B0F18;
+    height: 327px;
+    width: 471px;
+    padding: 100px 0;
+    text-align: center;
+
+}
+.black-box-text{
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+}
+
 
 
 /*------------------PRISER------------------*/
