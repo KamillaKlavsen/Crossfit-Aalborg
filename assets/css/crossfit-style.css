@@ -115,6 +115,12 @@ a:hover{
     color: var(--blue);
 }
 
+.button {
+    height: 53px;
+    width: 202px;
+    border: 3px solid var(--blue);
+}
+
 /* hero billeder */
 .hero {
     height: 50vh;
@@ -189,12 +195,6 @@ a:hover{
 
 .medlemspris {
     font-size: 50px;
-}
-
-.button {
-    height: 53px;
-    width: 202px;
-    border: 3px solid var(--blue);
 }
 
 .pris-box > article > a > .button {
