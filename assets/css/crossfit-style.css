@@ -61,13 +61,15 @@ a:hover{
 .nav{grid-area: nav;}
 .hero-video{grid-area: hero-video;}
 .livskvalitet{grid-area: livskvalitet;}
+.footer-forside{grid-area: footer-forside;}
 
 .grid-forside{
     display: grid;
     grid-template-areas: 
     'nav nav'
     'hero-video hero-video'
-    'livskvalitet livskvalitet';
+    'livskvalitet livskvalitet'
+    'footer-forside footer-forside';
 
 }
 
@@ -75,9 +77,23 @@ a:hover{
 .hero-video{
     width: 100vw;
 }
-
+/*sektion livskvalitet*/
 .livskvalitet{
-    
+    height: 708px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-forside{
+    height: 593px;
+    width: 959px;
+}
+
+.box{
+    height: 708px;
+    width: 1072px;
+    /* z-index: -4px; */
 }
 
 
