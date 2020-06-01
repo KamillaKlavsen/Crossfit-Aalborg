@@ -98,7 +98,7 @@ p {
 }
 .nav {
     background-color: var(--dark-section);
-    height: 135px;
+    height: 105px;
     max-width: 100%;
 }
 .opret{
@@ -125,6 +125,7 @@ a:hover{
     height: 53px;
     width: 202px;
     border: 3px solid var(--blue);
+    text-align: center;
 }
 
 /* hero billeder */
@@ -179,7 +180,7 @@ a:hover{
     z-index: -4;
     position: absolute;
     transform: translate(535px, -50px);
-    padding-left: 450px;
+    padding-left: 400px;
 }
 
 
