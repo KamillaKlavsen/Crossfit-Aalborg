@@ -12,9 +12,12 @@ body{
     color: #2E2E2E;
 }
 .blue-border{
+    border: 3px;
     color: #57C7F2;
 }
-
+.blue{
+    color: #57C7F2;
+}
 .white{
     color: #FFFFFF;
 }
@@ -23,7 +26,7 @@ body{
     color: #F7F9FF;
 }
 .beige{
-    color: #D9CFC7;
+    background-color: #D9CFC7;
 }
 .dark-blue{
     color: #0A2463;
@@ -57,16 +60,21 @@ a:hover{
 
 .nav{grid-area: nav;}
 .hero-video{grid-area: hero-video;}
+.livskvalitet{grid-area: livskvalitet;}
 
 .grid-forside{
     display: grid;
     grid-template-areas: 
     'nav nav'
-    'hero-video hero-video';
+    'hero-video hero-video'
+    'livskvalitet livskvalitet';
 
 }
 
 /*hero video*/
+.hero-video{
+    width: 100vw;
+}
 
 
 
@@ -89,21 +97,3 @@ a:hover{
 
 
 
-h1{
-    color: green;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
-
-p{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
-}
-
-.fa-instagram{
-    font-size: 2em;
-}
-.fa-facebook-square{
-    font-size: 2em;
-    color: blue;
-}
