@@ -114,6 +114,7 @@ a {
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
+    cursor: pointer;
     /*font-weight: 400;
     color: var(--white);*/
 }
@@ -209,7 +210,10 @@ a:hover{
     width: 471px;
     padding: 100px 0;
     text-align: center;
-
+}
+.black-box-text:hover{
+    border: 3px;
+    border-color: var(--blue);
 }
 .black-box-text{
     color: var(--white);
