@@ -104,12 +104,20 @@ a {
     text-decoration: none;
     color: var(--white);
     font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
 }
 a:hover{
     color: var(--blue);
 }
+
+
+/* hero billeder */
+.hero {
+    height: 50vh;
+}
+
+
 
 /*------------------FORSIDE------------------*/
 
@@ -154,7 +162,9 @@ a:hover{
 
 
 /*------------------PRISER------------------*/
-
+.priser {
+    background-image: url(../images/hero/hero-billede4.png);
+}
 
 
 
