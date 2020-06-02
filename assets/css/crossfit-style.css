@@ -123,14 +123,17 @@ footer{
 footer > div > h3{
     color: var(--white);
 }
-footer > p{
+footer > div > p{
     color: var(--white);
 }
 footer > ul > li{
     list-style-type: none;
 }
+.logo{
+    width: 202px;
+    height: 65px;
+}
 .icon{
-  
     font-size: 4vw;
     color: var(--white);
 }
