@@ -114,6 +114,19 @@ p {
     height: 65px;
     /*width: 100vw;*/
 }
+/*------------------FOOTER------------------*/
+footer{
+    height: 395px;
+    max-width: 100%;
+    background-color: var(--dark-section);
+}
+footer > h3{
+    color: var(--white);
+}
+
+footer > ul > li{
+    list-style-type: none;
+}
 
 /*------------------link styling------------------*/
 /* Denne er for generel og vil skabe problemer med andre links*/
