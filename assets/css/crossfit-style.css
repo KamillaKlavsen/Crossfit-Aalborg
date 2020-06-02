@@ -49,7 +49,6 @@ p {
     font-size: 18px;
     font-weight: 400;
     color: black;
-    line-height: 1.2;
 }
 
 /*------------------farver------------------*/
@@ -166,8 +165,7 @@ a:hover{
 
 /*------------------hero video------------------*/
 .hero-video{
-    max-width: auto;
-    height: auto;
+    width: 100vw;
 }
 
 /*------------------sektion livskvalitet------------------*/
@@ -182,18 +180,18 @@ a:hover{
 
 .img-forside{
     /*10px af 12 gange reduceret ned i størrelse*/
-    height: 473px;
-    width: 839px;
+    width: 959px;
 }
 
 .box{
     /*10px af 12 gange reduceret ned i størrelse*/
-    height: 588px;
-    width: 952px;
+    height: 708px;
+    width: 1072px;
     z-index: -4;
     position: absolute;
-    transform: translate(535px, -50px);
-    padding-left: 400px;
+    right: 0;
+    transform: translate(0, -50px);
+    padding-left: 200px;
 }
 /*------------------sektion tre bokse------------------*/
 .three-boxes{
