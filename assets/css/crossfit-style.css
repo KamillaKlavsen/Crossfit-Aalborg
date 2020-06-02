@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     color: black;
     text-transform: uppercase;
@@ -181,21 +181,29 @@ a:hover{
 }
 
 /*-------sektion livskvalitet-------*/
-.livskvalitet{
+.img-text{
     /*10px af 8 gange reduceret ned i størrelse*/
     display: flex;
     flex-direction: row;
     margin: 100px 0;
 }
 
-.img-forside{
+.img-left{
     /*10px af 12 gange reduceret ned i størrelse*/
     width: 50vw;
     position: relative;
     top: 6vh;
 }
 
-.box{
+.img-right{
+    /*10px af 12 gange reduceret ned i størrelse*/
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    padding-top: 4%;
+}
+
+.right-box{
     /*10px af 12 gange reduceret ned i størrelse*/
     height: 83vh;
     width: 56vw;
@@ -203,7 +211,19 @@ a:hover{
     position: absolute;
     right: 0;
     padding-left: 200px;
+    padding-right: 228px;
 }
+
+.left-box{
+    /*10px af 12 gange reduceret ned i størrelse*/
+    height: 83vh;
+    width: 56vw;
+    z-index: -4;
+    position: relative;
+    padding-left: 228px;
+    padding-right: 200px;
+}
+
 /*-------sektion tre bokse-----*/
 .three-boxes{
     /*10px af 22 gange reduceret ned i størrelse*/
