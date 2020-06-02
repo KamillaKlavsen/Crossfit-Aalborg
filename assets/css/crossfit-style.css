@@ -38,15 +38,16 @@ h3 {
 
 h4 {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: black;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 p {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: black;
 }
@@ -150,9 +151,7 @@ footer > ul > li{
     font-size: 4vw;
     color: var(--white);
 }
-.kontakt{
 
-}
 .SoMe{
      display: flex;
     flex-direction: row;
@@ -253,8 +252,6 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 228px;
-    
-    
 }
 
 .black-box{
@@ -395,6 +392,24 @@ a:hover{
   }
 /*------------------NYE MEDLEMMER------------------*/
 /*------------------OM CFAA------------------*/
+.om-os {
+    background-image: url(../images/hero/hero-billede8.png);
+}
+
+.dark-section {
+    height: 400px;
+    width: 100%;
+    background-color: var(--dark-section);
+}
+
+.dark-section > h3 {
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+
+
 /*------------------PERSONLIG TRÆNING------------------*/
 /*------------------REGLER------------------*/
 /*------------------SHOP------------------*/
