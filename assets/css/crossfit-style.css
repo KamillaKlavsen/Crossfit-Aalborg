@@ -226,7 +226,7 @@ a:hover{
 /*-------sektion tre bokse-----*/
 .three-boxes{
     /*10px af 22 gange reduceret ned i størrelse*/
-    height: 450px;
+    height: 400px;
     width: 100%;
     background-color: var(--dark-section);
     display: flex;
@@ -242,7 +242,7 @@ a:hover{
 .black-box{
     background-color: #0B0F18;
     /*laves responsivt*/
-    height: 327px;
+    height: 260px;
     width: 32%;
     padding: 100px 0;
     text-align: center;
