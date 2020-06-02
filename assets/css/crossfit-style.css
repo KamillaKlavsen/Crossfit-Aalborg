@@ -93,9 +93,13 @@ p {
 }
 /*------------------NAVIGATION------------------*/
 nav {
-    background-color: rgba(46, 46, 46, 0.822);
+    background-color: var(--dark-section);
     height: 70px;
     width: 100%;
+}
+
+.nav-forside {
+    background-color: rgba(46, 46, 46, 0.822);
     position: absolute;
     z-index: 10;
 }
