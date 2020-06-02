@@ -188,21 +188,13 @@ a:hover{
     margin: 100px 0;
 }
 
+/* billede til venstre og tekst til højre*/
 .img-left{
     /*10px af 12 gange reduceret ned i størrelse*/
     width: 50vw;
     position: relative;
     top: 6vh;
 }
-
-.img-right{
-    /*10px af 12 gange reduceret ned i størrelse*/
-    width: 50vw;
-    position: absolute;
-    right: 0;
-    padding-top: 4%;
-}
-
 .right-box{
     /*10px af 12 gange reduceret ned i størrelse*/
     height: 83vh;
@@ -214,6 +206,7 @@ a:hover{
     padding-right: 228px;
 }
 
+/* tekst til venstre og billede til højre*/
 .left-box{
     /*10px af 12 gange reduceret ned i størrelse*/
     height: 83vh;
@@ -223,7 +216,13 @@ a:hover{
     padding-left: 228px;
     padding-right: 200px;
 }
-
+.img-right{
+    /*10px af 12 gange reduceret ned i størrelse*/
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    padding-top: 4%;
+}
 /*-------sektion tre bokse-----*/
 .three-boxes{
     /*10px af 22 gange reduceret ned i størrelse*/
