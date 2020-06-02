@@ -207,7 +207,7 @@ a:hover{
 /*-------sektion tre bokse-----*/
 .three-boxes{
     /*10px af 22 gange reduceret ned i størrelse*/
-    height: 620px;
+    height: 450px;
     width: 100%;
     background-color: var(--dark-section);
     display: flex;
@@ -215,8 +215,8 @@ a:hover{
     flex-wrap: wrap;
     /*center center herunder gør, at boksene er centreret fuldstændig*/
     align-items: center;
-    justify-content: space-around;
-    padding: 228px;
+    justify-content: space-between;
+    padding: 0 228px;
     
 }
 
