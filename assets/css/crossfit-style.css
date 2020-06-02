@@ -350,6 +350,34 @@ a:hover{
 /*------------------INTROFORLØB------------------*/
 /*------------------KOSTVEJLEDNING------------------*/
 /*------------------MEDLEMSBETINGELSER------------------*/
+
+.show-more {
+    margin: 50px 228px ;
+}
+
+.accordion {
+    background-color: var(--beige);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    /*transition: 5s;*/
+  }
+  
+.active, .accordion:hover {
+    background-color: #E8DFD8; 
+  }
+  
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 /*------------------NYE MEDLEMMER------------------*/
 /*------------------OM CFAA------------------*/
 /*------------------PERSONLIG TRÆNING------------------*/
