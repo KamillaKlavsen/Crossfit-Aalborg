@@ -323,9 +323,15 @@ a:hover{
     background-image: url('../images/hero/hero-billede8.png');
 }
 
-.handel-grid{
-    padding: 5%;
+.handel-grid:nth-child(odd) {
+    padding: 5% 100px 5% 228px;
 }
+
+.handel-grid:nth-child(even) {
+    padding: 5% 228px 5% 100px;
+}
+
+
 
 .handel1{grid-area: handel1;}
 .handel2{grid-area: handel2;}
@@ -340,9 +346,6 @@ a:hover{
     'handel3 handel4' ;
     margin: 10vh 0;
 }
-
-
-
 
 
 
