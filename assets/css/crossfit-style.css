@@ -356,6 +356,10 @@ a:hover{
 }
 /*------------------HOLDPLAN------------------*/
 /*------------------INTROFORLØB------------------*/
+.introforløb{
+    background-image: url('../images/hero/hero-billede1.png');
+}
+
 /*------------------KOSTVEJLEDNING------------------*/
 /*------------------MEDLEMSBETINGELSER------------------*/
 .medlemsbetingelser{
