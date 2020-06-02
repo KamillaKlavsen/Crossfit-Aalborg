@@ -141,7 +141,7 @@ footer > ul > li{
      display: flex;
     flex-direction: row;
     /* align-items: center; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 /*link styling*/
