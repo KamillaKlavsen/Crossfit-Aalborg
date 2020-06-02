@@ -128,7 +128,7 @@ footer > ul > li{
     list-style-type: none;
 }
 
-/*------------------link styling------------------*/
+/*link styling*/
 /* Denne er for generel og vil skabe problemer med andre links*/
 a {
     text-decoration: none;
@@ -158,55 +158,37 @@ a:hover{
 
 /*------------------FORSIDE------------------*/
 
-.nav{grid-area: nav;}
-.hero-video{grid-area: hero-video;}
-.livskvalitet{grid-area: livskvalitet;}
-.three-boxes{grid-area: three-boxes;}
-.footer-forside{grid-area: footer-forside;}
 
-
-.grid-forside{
-    display: grid;
-    grid-template-areas: 
-    'nav nav'
-    'hero-video hero-video'
-    'livskvalitet livskvalitet'
-    'three-boxes three-boxes'
-    'footer-forside footer-forside';
-
-}
-
-/*------------------hero video------------------*/
+/*hero video*/
 .hero-video{
-    width: 100vw;
+    width: 100%;
 }
 
-/*------------------sektion livskvalitet------------------*/
+/*-------sektion livskvalitet-------*/
 .livskvalitet{
     /*10px af 8 gange reduceret ned i størrelse*/
-    height: 628px;
-    max-width: 100%;
     display: flex;
     flex-direction: row;
-    margin-top: 130px;
+    margin: 100px 0;
 }
 
 .img-forside{
     /*10px af 12 gange reduceret ned i størrelse*/
-    width: 959px;
+    width: 50vw;
+    position: relative;
+    top: 6vh;
 }
 
 .box{
     /*10px af 12 gange reduceret ned i størrelse*/
-    height: 708px;
-    width: 1072px;
+    height: 83vh;
+    width: 56vw;
     z-index: -4;
     position: absolute;
     right: 0;
-    transform: translate(0, -50px);
     padding-left: 200px;
 }
-/*------------------sektion tre bokse------------------*/
+/*-------sektion tre bokse-----*/
 .three-boxes{
     /*10px af 22 gange reduceret ned i størrelse*/
     height: 400px;
