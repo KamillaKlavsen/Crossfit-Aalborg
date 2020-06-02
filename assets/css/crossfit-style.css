@@ -16,6 +16,7 @@ h1 {
     text-align: center;
     padding: 14vh;
     margin: 0;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
     font-size: 60px;
     font-weight: 400;
     color: black;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -31,6 +33,7 @@ h3 {
     font-weight: 400;
     color: black;
     margin: 0;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -38,6 +41,7 @@ h4 {
     font-size: 22px;
     font-weight: 700;
     color: black;
+    text-transform: uppercase;
 }
 
 p {
@@ -73,6 +77,10 @@ p {
 }
 .white{
     color: var(--white);
+}
+
+.white-bg{
+    background-color: var(--white);
 }
 
 .white-blue{
@@ -269,6 +277,15 @@ a:hover{
 /*------------------BOOTCAMPS------------------*/
 /*------------------GIRLS BOOTCAMP------------------*/
 /*------------------HANDELSBETINGELSER------------------*/
+.handelsbetingelser{
+    background-image: url('../images/hero/hero-billede8.png');
+}
+
+
+
+
+
+
 /*------------------HOLDBESKRIVELSER------------------*/
 /*------------------HOLDPLAN------------------*/
 /*------------------INTROFORLØB------------------*/
