@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     color: black;
     text-transform: uppercase;
@@ -181,21 +181,21 @@ a:hover{
 }
 
 /*-------sektion livskvalitet-------*/
-.livskvalitet{
+.img-text{
     /*10px af 8 gange reduceret ned i størrelse*/
     display: flex;
     flex-direction: row;
     margin: 100px 0;
 }
 
-.img-forside{
+/* billede til venstre og tekst til højre*/
+.img-left{
     /*10px af 12 gange reduceret ned i størrelse*/
     width: 50vw;
     position: relative;
     top: 6vh;
 }
-
-.box{
+.right-box{
     /*10px af 12 gange reduceret ned i størrelse*/
     height: 83vh;
     width: 56vw;
@@ -203,6 +203,25 @@ a:hover{
     position: absolute;
     right: 0;
     padding-left: 200px;
+    padding-right: 228px;
+}
+
+/* tekst til venstre og billede til højre*/
+.left-box{
+    /*10px af 12 gange reduceret ned i størrelse*/
+    height: 83vh;
+    width: 56vw;
+    z-index: -4;
+    position: relative;
+    padding-left: 228px;
+    padding-right: 200px;
+}
+.img-right{
+    /*10px af 12 gange reduceret ned i størrelse*/
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    padding-top: 4%;
 }
 /*-------sektion tre bokse-----*/
 .three-boxes{
@@ -212,33 +231,30 @@ a:hover{
     background-color: var(--dark-section);
     display: flex;
     flex-direction: row;
-    margin-bottom: 150px;
     flex-wrap: wrap;
     /*center center herunder gør, at boksene er centreret fuldstændig*/
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 228px;
     
 }
 
 .black-box{
     background-color: #0B0F18;
-    height: 327px;
-    width: 471px;
+    /*laves responsivt*/
+    height: 260px;
+    width: 32%;
     padding: 100px 0;
     text-align: center;
-}
-.black-box-text:hover{
-    border: 3px;
-    border-color: var(--blue);
-}
-.black-box-text{
     color: var(--white);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 38px;
+    font-size: 40px;
 }
 
+.black-box:hover{
+    box-shadow: 0 0 0 3px var(--blue);
+}
 
 
 /*------------------PRISER------------------*/
