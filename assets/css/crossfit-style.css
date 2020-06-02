@@ -93,9 +93,11 @@ p {
 }
 /*------------------NAVIGATION------------------*/
 nav {
-    background-color: var(--dark-section);
+    background-color: rgba(46, 46, 46, 0.822);
     height: 70px;
-    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
 }
 
 nav > ul{
