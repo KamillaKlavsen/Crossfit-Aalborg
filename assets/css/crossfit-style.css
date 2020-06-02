@@ -148,7 +148,7 @@ footer > ul > li{
      display: flex;
     flex-direction: row;
     /* align-items: center; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 /*link styling*/
@@ -266,7 +266,7 @@ a:hover{
 
 /*------------------PRISER------------------*/
 .priser {
-    background-image: url(../images/hero/hero-billede4.png);
+    background-image: url(../images/hero/hero-billede7.png);
 }
 
 .pris-box {
