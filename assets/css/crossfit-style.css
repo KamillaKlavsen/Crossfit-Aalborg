@@ -350,6 +350,9 @@ a:hover{
 /*------------------INTROFORLØB------------------*/
 /*------------------KOSTVEJLEDNING------------------*/
 /*------------------MEDLEMSBETINGELSER------------------*/
+.medlemsbetingelser{
+    background-image: url(../images/hero/hero-billede8.png);
+}
 
 .show-more {
     margin: 50px 228px ;
