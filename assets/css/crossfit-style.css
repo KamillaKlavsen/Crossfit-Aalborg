@@ -219,7 +219,7 @@ a:hover{
     position: absolute;
     right: 0;
     padding-left: 200px;
-    padding-right: 228px;
+    padding-right: 228px;   
 }
 
 /* tekst til venstre og billede til højre*/
@@ -252,6 +252,7 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 228px;
+    
     
 }
 
