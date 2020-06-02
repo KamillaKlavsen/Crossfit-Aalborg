@@ -120,12 +120,28 @@ footer{
     max-width: 100%;
     background-color: var(--dark-section);
 }
-footer > h3{
+footer > div > h3{
     color: var(--white);
 }
-
+footer > p{
+    color: var(--white);
+}
 footer > ul > li{
     list-style-type: none;
+}
+.icon{
+  
+    font-size: 4vw;
+    color: var(--white);
+}
+.kontakt{
+
+}
+.SoMe{
+     display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
 }
 
 /*link styling*/
