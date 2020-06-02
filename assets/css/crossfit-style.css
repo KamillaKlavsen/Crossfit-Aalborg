@@ -184,6 +184,7 @@ a:hover{
 /* hero billeder */
 .hero {
     height: 50vh;
+    background-size: 100%;
 }
 
 
@@ -346,6 +347,9 @@ a:hover{
 
 
 /*------------------HOLDBESKRIVELSER------------------*/
+.holdbeskriv{
+    background-image: url(../images/hero/hero-billede3.png);
+}
 /*------------------HOLDPLAN------------------*/
 /*------------------INTROFORLØB------------------*/
 /*------------------KOSTVEJLEDNING------------------*/
