@@ -178,38 +178,35 @@ a:hover{
 /*-------sektion tre bokse-----*/
 .three-boxes{
     /*10px af 22 gange reduceret ned i størrelse*/
-    height: 400px;
+    height: 620px;
     width: 100%;
     background-color: var(--dark-section);
     display: flex;
     flex-direction: row;
-    margin-bottom: 150px;
     flex-wrap: wrap;
     /*center center herunder gør, at boksene er centreret fuldstændig*/
-    justify-content: center;
     align-items: center;
     justify-content: space-around;
+    padding: 228px;
     
 }
 
 .black-box{
     background-color: #0B0F18;
+    /*laves responsivt*/
     height: 327px;
-    width: 471px;
+    width: 32%;
     padding: 100px 0;
     text-align: center;
-}
-.black-box-text:hover{
-    border: 3px;
-    border-color: var(--blue);
-}
-.black-box-text{
     color: var(--white);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 38px;
+    font-size: 40px;
 }
 
+.black-box:hover{
+    box-shadow: 0 0 0 3px var(--blue);
+}
 
 
 /*------------------PRISER------------------*/
