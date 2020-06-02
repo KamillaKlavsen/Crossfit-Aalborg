@@ -279,6 +279,24 @@ a:hover{
     background-image: url('../images/hero/hero-billede8.png');
 }
 
+.handel-grid{
+    padding: 5%;
+}
+
+.handel1{grid-area: handel1;}
+.handel2{grid-area: handel2;}
+.handel3{grid-area: handel3;}
+.handel4{grid-area: handel4;}
+
+.grid-handel{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    'handel1 handel2'
+    'handel3 handel4' ;
+    margin: 10vh 0;
+}
+
 
 
 
