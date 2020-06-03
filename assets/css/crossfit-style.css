@@ -409,6 +409,36 @@ a:hover{
 
 
 /*------------------PERSONLIG TRÆNING------------------*/
+.personlig-træning{
+    background-image: url('../images/hero/hero-billede2.png');
+}
+
+.personlig-grid:nth-child(odd) {
+    padding: 5% 100px 5% 228px;
+}
+
+.personlig-grid:nth-child(even) {
+    padding: 5% 228px 5% 100px;
+}
+
+.personlig1{grid-area: personlig1;}
+.personlig2{grid-area: personlig2;}
+.personlig3{grid-area: personlig3;}
+.personlig4{grid-area: personlig4;}
+.personlig5{grid-area: personlig5;}
+.personlig6{grid-area: personlig6;}
+
+
+
+.grid-personlig{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    'personlig1 personlig2'
+    'personlig3 personlig4'
+    'personlig5 personlig6' ;
+    margin: 10vh 0;
+}
 /*------------------REGLER------------------*/
 /*------------------SHOP------------------*/
 /*------------------VIRKSOMHED------------------*/
