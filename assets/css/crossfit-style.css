@@ -95,7 +95,7 @@ p {
 /*------------------NAVIGATION------------------*/
 nav {
     background-color: var(--dark-section);
-    height: 70px;
+    height: 67px;
     width: 100%;
 }
 
@@ -105,29 +105,67 @@ nav {
     z-index: 10;
 }
 
+nav > img {
+    height: 67px;
+    padding-left: 20px;
+}
+
 nav > ul{
     float: right;
     margin: 0 20px 0 0;
-    height: 70px;
 }
 nav > ul > li{
    list-style-type: none;
    text-transform: uppercase;
    display: inline-block;
-   padding: 22px 5px;
+   position: relative;
 }
 
 nav > ul > li > a{
     color: var(--white);
+    padding: 22px 10px;
 }
 
+nav > ul > li > a:hover {
+    background-color: var(--dark-section);
+}
 .opret{
     background-color: var(--blue);
-    height: 70px;
-    width: 110px;
-    padding: 10px;
+    padding: 22px 0;
     text-align: center;
 }
+.opret:hover {
+    color: var(--dark-section);
+}
+
+nav > ul > li > ul {
+    display: none;
+    margin: 23px 0;
+    padding: 0;
+    width: 200px;
+    position: absolute;
+    background-color: var(--dark-section);
+}
+
+nav > ul > li:hover > ul {
+	display: block;
+}
+
+nav > ul > li > ul > li {
+	list-style-type: none;
+    display: block;
+    padding: 15px 5px;
+}
+
+nav > ul > li > ul > li > a {
+    color: var(--white);
+    padding: 15px 5px;
+}
+
+nav > ul > li > ul > li:hover {
+    background-color: rgb(36, 36, 36);
+}
+
 /*------------------FOOTER------------------*/
 footer{
     height: 395px;
@@ -164,7 +202,7 @@ footer > ul > li{
 a {
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     /*font-weight: 400;
     color: var(--white);*/
