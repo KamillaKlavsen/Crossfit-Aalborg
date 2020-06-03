@@ -118,7 +118,7 @@ nav > ul > li{
 
 nav > ul > li > a{
     color: var(--white);
-    padding: 22px 5px;
+    padding: 22px 10px;
 }
 
 nav > ul > li > a:hover {
@@ -126,7 +126,7 @@ nav > ul > li > a:hover {
 }
 .opret{
     background-color: var(--blue);
-    padding: 22.6px 0;
+    padding: 22px 0;
     text-align: center;
 }
 .opret:hover {
