@@ -404,6 +404,7 @@ a:hover{
     height: 320px;
     text-align: center;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .hold-box > img {
