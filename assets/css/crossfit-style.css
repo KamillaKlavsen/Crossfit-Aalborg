@@ -315,8 +315,12 @@ a:hover{
 
 
 /*------------------Fordele------------------*/
-/*------------------BOOTCAMPS------------------*/
 /*------------------GIRLS BOOTCAMP------------------*/
+.girls-boot{
+    background-image: url('../images/hero/hero-billede7.png');
+}
+
+
 /*------------------HANDELSBETINGELSER------------------*/
 .handelsbetingelser{
     background-image: url('../images/hero/hero-billede8.png');
@@ -343,8 +347,6 @@ a:hover{
     'handel3 handel4' ;
     margin: 10vh 0;
 }
-
-
 
 /*------------------HOLDBESKRIVELSER------------------*/
 .holdbeskriv{
