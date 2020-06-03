@@ -349,7 +349,6 @@ a:hover{
     background-image: url(../images/hero/hero-billede3.png);
 }
 
-/*------------------HOLDPLAN------------------*/
 .hold-flex {
     display: flex;
     flex-wrap: wrap;
@@ -376,6 +375,14 @@ a:hover{
 .hide {
     visibility: hidden;
 }
+/*------------------HOLDPLAN------------------*/
+.holdplan {
+    padding: 50px 228px;
+}
+.holdplan > img {
+    width: 100%;
+}
+
 
 /*------------------INTROFORLØB------------------*/
 .introforløb{
