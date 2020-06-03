@@ -357,6 +357,11 @@ a:hover{
 }
 
 /*------------------KOSTVEJLEDNING------------------*/
+.kostvejledning{
+    background-image: url('../images/hero/hero-billede2.png');
+}
+
+
 /*------------------MEDLEMSBETINGELSER------------------*/
 .medlemsbetingelser{
     background-image: url(../images/hero/hero-billede8.png);
