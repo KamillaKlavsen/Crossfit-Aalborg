@@ -184,6 +184,7 @@ a:hover{
 .hero {
     height: 50vh;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
