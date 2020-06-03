@@ -352,7 +352,42 @@ a:hover{
 .holdbeskriv{
     background-image: url(../images/hero/hero-billede3.png);
 }
+
+.hold-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 228px;
+    justify-content: space-between;
+}
+
+.hold-box {
+    background-color: var(--beige);
+    width: 32%;
+    height: 320px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hold-box > img {
+    width: 100%;
+}
+
+.hold-box:nth-child(3n+2){
+    transform: translateY(160px);
+}
+
+.hide {
+    visibility: hidden;
+}
 /*------------------HOLDPLAN------------------*/
+.holdplan {
+    padding: 50px 228px;
+}
+.holdplan > img {
+    width: 100%;
+}
+
+
 /*------------------INTROFORLØB------------------*/
 .introforløb{
     background-image: url('../images/hero/hero-billede1.png');
@@ -383,19 +418,24 @@ a:hover{
     text-align: left;
     outline: none;
     font-size: 18px;
-    /*transition: 5s;*/
+    margin-bottom: 10px;
   }
   
 .active, .accordion:hover {
     background-color: #E8DFD8; 
-  }
-  
+}
+
+.active {
+    margin-bottom: 0;
+}
+
 .panel {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
-  }
+    margin-bottom: 10px;
+}
 /*------------------NYE MEDLEMMER------------------*/
 /*------------------OM CFAA------------------*/
 .om-os {
