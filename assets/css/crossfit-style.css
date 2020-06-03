@@ -344,13 +344,39 @@ a:hover{
     margin: 10vh 0;
 }
 
-
-
 /*------------------HOLDBESKRIVELSER------------------*/
 .holdbeskriv{
     background-image: url(../images/hero/hero-billede3.png);
 }
+
 /*------------------HOLDPLAN------------------*/
+.hold-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 228px;
+    justify-content: space-between;
+}
+
+.hold-box {
+    background-color: var(--beige);
+    width: 22vw;
+    height: 320px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hold-box > img {
+    width: 100%;
+}
+
+.hold-box:nth-child(3n+2){
+    transform: translateY(160px);
+}
+
+.hide {
+    visibility: hidden;
+}
+
 /*------------------INTROFORLØB------------------*/
 .introforløb{
     background-image: url('../images/hero/hero-billede1.png');
