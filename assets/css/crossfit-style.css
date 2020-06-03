@@ -420,7 +420,7 @@ a:hover{
 }
 
 /*MODAL*/
-.bandModal {
+.holdModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -434,33 +434,36 @@ a:hover{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     
 }
-  .band-content {
+  .hold-content {
     background-color: #fefefe;
+    height: 50vh;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 40%;
+    /* padding: 20px; */
+    /* border: 1px solid #888; */
+    width: 35%;
    
 }
-.band-desc{
-    padding: 0 2vw;
-
+.hold-desc{
+    padding: 5vw;
+    line-height: 3.5vh;
 }
-.band-desc h2{
-    font-size: 2.5vw;
+.modal-box{
+    background-color: var(--beige);
+    height: 70px;
 }
 
   /* The Close Button */
 .btn_close {
-    color: #aaaaaa;
+    color: var(--dark-section);
     float: right;
-    font-size: 28px;
+    font-size: 6vw;
     font-weight: bold;
+    transform: translate(-20px, -20px);
   }
   
 .btn_close:hover,
 .btn_close:focus {
-    color: #000;
+    color: var(--light-bg);
     text-decoration: none;
     cursor: pointer;
 }
