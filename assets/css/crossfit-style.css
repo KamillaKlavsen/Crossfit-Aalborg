@@ -353,7 +353,7 @@ a:hover{
 .hold-grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 20px 228px;
+    padding: 50px 228px;
     justify-content: space-between;
 }
 
