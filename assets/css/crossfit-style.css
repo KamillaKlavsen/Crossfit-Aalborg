@@ -414,19 +414,24 @@ a:hover{
     text-align: left;
     outline: none;
     font-size: 18px;
-    /*transition: 5s;*/
+    margin-bottom: 10px;
   }
   
 .active, .accordion:hover {
     background-color: #E8DFD8; 
-  }
-  
+}
+
+.active {
+    margin-bottom: 0;
+}
+
 .panel {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
-  }
+    margin-bottom: 10px;
+}
 /*------------------NYE MEDLEMMER------------------*/
 /*------------------OM CFAA------------------*/
 .om-os {
