@@ -17,28 +17,55 @@ for (i = 0; i < acc.length; i++) {
 
 // Modal til holdbeskrivelser
 
+//OPEN GYM
 // Get the modal
-var bandModalId = document.getElementById("bandModalId");
+var holdModalId = document.getElementById("holdModalId");
 
 // Get the button that opens the modal
-var btn = document.getElementById("bands");
+var btn = document.getElementById("hold");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-  bandModalId.style.display = "block";
+  holdModalId.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  bandModalId.style.display = "none";
+  holdModalId.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == bandModalId) {
-    bandModalId.style.display = "none";
+  if (event.target == holdModalId) {
+    holdModalId.style.display = "none";
+  }
+}
+
+//MASTER
+var holdModalId1 = document.getElementById("holdModalId1");
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("hold1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[1];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+  holdModalId1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  holdModalId1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == holdModalId1) {
+    holdModalId1.style.display = "none";
   }
 }
