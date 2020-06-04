@@ -214,7 +214,6 @@ a:hover{
 }
 
 .button > a {
-    font-weight: 700;
     color: var(--blue);
     font-weight: 700;
     padding: 13px 61px;
@@ -326,14 +325,15 @@ a:hover{
     padding: 60px 12vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .pris-box > article{
-    width: 33%;
-    height: 538px;
+    width: 32%;
     background-color: var(--beige);
     text-align: center;
     padding: 3% 6%;
+    margin-bottom: 20px;
 }
 
 .pris-box > article:nth-child(even) {
@@ -342,12 +342,19 @@ a:hover{
 
 .medlemspris {
     font-size: 50px;
+    margin-bottom: 0;
 }
 
 .pris-box > article > a > .button {
     margin: auto;
 }
 
+.top {
+    margin-top: 0;
+}
+.bottom {
+    margin-bottom: 0;
+}
 
 .blue-box {
     background-color: var(--blue) !important;
