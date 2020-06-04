@@ -261,8 +261,8 @@ a:hover{
     width: 56vw;
     position: absolute;
     right: 0;
-    padding-left: 200px;
-    padding-right: 228px;   
+    padding-left: 12vw;
+    padding-right: 12vw;   
 }
 
 /* tekst til venstre*/
@@ -271,7 +271,7 @@ a:hover{
     width: 56vw;
     position: absolute;
     padding-left: 12vw;
-    padding-right: 200px;
+    padding-right: 12vw;
 }
 
 .float {
@@ -366,11 +366,11 @@ a:hover{
 }
 
 .handel-grid:nth-child(odd) {
-    padding: 5% 100px 5% 12vw;
+    padding: 5% 5vw 5% 12vw;
 }
 
 .handel-grid:nth-child(even) {
-    padding: 5% 12vw 5% 100px;
+    padding: 5% 12vw 5% 5vw;
 }
 
 .handel1{grid-area: handel1;}
