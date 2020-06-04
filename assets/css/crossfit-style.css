@@ -237,50 +237,52 @@ a:hover{
 
 /*-------sektion livskvalitet-------*/
 .img-text{
-    /*10px af 8 gange reduceret ned i størrelse*/
     display: flex;
     flex-direction: row;
     margin: 100px 0;
+    height: 83vh;
 }
 
-/* billede til venstre og tekst til højre*/
+/* billede til venstre*/
 .img-left{
-    /*10px af 12 gange reduceret ned i størrelse*/
     width: 50vw;
-    position: relative;
-    top: 6vh;
+    z-index: 1;
+    display: block;
+    margin: auto 0;
+    
 }
+/*billede til højre*/
+.img-right{
+    width: 50vw;
+    z-index: 1;
+    display: block;
+    margin: auto 0;
+}
+
+/*tekst til højre*/
 .right-box{
-    /*10px af 12 gange reduceret ned i størrelse*/
     height: 83vh;
     width: 56vw;
-    z-index: -4;
     position: absolute;
     right: 0;
     padding-left: 200px;
     padding-right: 228px;   
 }
 
-/* tekst til venstre og billede til højre*/
+/* tekst til venstre*/
 .left-box{
-    /*10px af 12 gange reduceret ned i størrelse*/
     height: 83vh;
     width: 56vw;
-    z-index: -4;
     position: relative;
     padding-left: 228px;
     padding-right: 200px;
 }
-.img-right{
-    /*10px af 12 gange reduceret ned i størrelse*/
-    width: 50vw;
-    position: absolute;
-    right: 0;
-    padding-top: 4%;
-}
+
+
+
+
 /*-------sektion tre bokse-----*/
 .three-boxes{
-    /*10px af 22 gange reduceret ned i størrelse*/
     height: 400px;
     width: 100%;
     background-color: var(--dark-section);
