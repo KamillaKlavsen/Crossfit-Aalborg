@@ -278,7 +278,9 @@ a:hover{
     padding-right: 200px;
 }
 
-
+.float {
+    float: left;
+}
 
 
 /*-------sektion tre bokse-----*/
