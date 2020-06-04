@@ -419,6 +419,7 @@ a:hover{
 }
 
 /*MODAL*/
+
 .holdModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -433,15 +434,15 @@ a:hover{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     
 }
-  .hold-content {
+.hold-content {
     background-color: #fefefe;
     height: 50vh;
     margin: auto;
     /* padding: 20px; */
     /* border: 1px solid #888; */
     width: 35%;
-   
 }
+
 .hold-desc{
     padding: 5vw;
     line-height: 3.5vh;
