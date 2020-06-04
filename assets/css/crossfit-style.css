@@ -530,24 +530,40 @@ a:hover{
     margin-bottom: 10px;
 }
 /*------------------NYE MEDLEMMER------------------*/
+.nye-medlemmer {
+    background-image: url(../images/hero/hero-billede1.png);
+}
+
+/* infografik svg elementer*/
+.st0{fill:#FFFFFF;}
+.st1{fill:none;stroke:#57C7F2;stroke-width:3;}
+.st2{font-family:'Noto Sans', sans-serif; font-weight: 700;}
+.st3{font-size:19.6938px;}
+.st4{fill:#0A2463;}
+.st5{font-family:'Oswald', sans-serif;}
+.st6{font-size:41.1779px;}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /*------------------OM CFAA------------------*/
 .om-os {
     background-image: url(../images/hero/hero-billede8.png);
 }
 
 .dark-section {
-    height: 400px;
     width: 100%;
     background-color: var(--dark-section);
+    padding: 80px 228px;
 }
 
 .dark-section > h3 {
     color: var(--white);
     text-align: center;
-    padding: 20px;
 }
-
-
 
 /*------------------PERSONLIG TRÆNING------------------*/
 .personlig-træning{
