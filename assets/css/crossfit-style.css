@@ -238,25 +238,28 @@ a:hover{
 /*-------sektion livskvalitet-------*/
 .img-text{
     display: flex;
-    flex-direction: row;
     margin: 100px 0;
     height: 83vh;
 }
 
 /* billede til venstre*/
+.img {
+    width: 50vw;
+    z-index: 1;
+    display: block;
+    margin: auto 0;
+}
+
 .img-left{
     width: 50vw;
     z-index: 1;
     display: block;
     margin: auto 0;
-    
 }
 /*billede til højre*/
 .img-right{
-    width: 50vw;
-    z-index: 1;
-    display: block;
-    margin: auto 0;
+
+    transform: translateX(97.8%);
 }
 
 /*tekst til højre*/
@@ -273,7 +276,7 @@ a:hover{
 .left-box{
     height: 83vh;
     width: 56vw;
-    position: relative;
+    position: absolute;
     padding-left: 228px;
     padding-right: 200px;
 }
