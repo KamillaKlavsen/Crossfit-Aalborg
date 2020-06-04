@@ -270,7 +270,7 @@ a:hover{
     height: 83vh;
     width: 56vw;
     position: absolute;
-    padding-left: 228px;
+    padding-left: 12vw;
     padding-right: 200px;
 }
 
@@ -290,7 +290,7 @@ a:hover{
     /*center center herunder gør, at boksene er centreret fuldstændig*/
     align-items: center;
     justify-content: space-between;
-    padding: 0 228px;
+    padding: 0 12vw;
 }
 
 .black-box{
@@ -317,7 +317,7 @@ a:hover{
 }
 
 .pris-box {
-    padding: 60px 228px;
+    padding: 60px 12vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -366,11 +366,11 @@ a:hover{
 }
 
 .handel-grid:nth-child(odd) {
-    padding: 5% 100px 5% 228px;
+    padding: 5% 100px 5% 12vw;
 }
 
 .handel-grid:nth-child(even) {
-    padding: 5% 228px 5% 100px;
+    padding: 5% 12vw 5% 100px;
 }
 
 .handel1{grid-area: handel1;}
@@ -395,7 +395,7 @@ a:hover{
 .hold-flex {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 228px;
+    padding: 50px 12vw;
     justify-content: space-between;
 }
 
@@ -473,7 +473,7 @@ a:hover{
 
 /*------------------HOLDPLAN------------------*/
 .holdplan {
-    padding: 50px 228px;
+    padding: 50px 12vw;
 }
 .holdplan > img {
     width: 100%;
@@ -556,7 +556,7 @@ a:hover{
 .dark-section {
     width: 100%;
     background-color: var(--dark-section);
-    padding: 80px 228px;
+    padding: 80px 12vw;
 }
 
 .dark-section > h3 {
@@ -570,11 +570,11 @@ a:hover{
 }
 
 .personlig-grid:nth-child(odd) {
-    padding: 5% 100px 5% 228px;
+    padding: 5% 100px 5% 12vw;
 }
 
 .personlig-grid:nth-child(even) {
-    padding: 5% 228px 5% 100px;
+    padding: 5% 12vw 5% 100px;
 }
 
 .personlig1{grid-area: personlig1;}
