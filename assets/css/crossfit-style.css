@@ -343,6 +343,7 @@ a:hover{
 .medlemspris {
     font-size: 50px;
     margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 .pris-box > article > a > .button {
