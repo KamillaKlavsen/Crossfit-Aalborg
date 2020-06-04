@@ -198,26 +198,28 @@ footer > ul > li{
 }
 
 /*link styling*/
-/* Denne er for generel og vil skabe problemer med andre links*/
 a {
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     cursor: pointer;
-    /*font-weight: 400;
-    color: var(--white);*/
+    color: var(--blue);
 }
 a:hover{
     color: var(--blue);
 }
 
 .button {
-    height: 53px;
-    width: 202px;
-    border: 3px solid var(--blue);
-    text-align: center;
+    margin-top: 30px;
 }
 
+.button > a {
+    font-weight: 700;
+    color: var(--blue);
+    font-weight: 700;
+    padding: 13px 61px;
+    border: 3px solid var(--blue);
+}
 /* hero billeder */
 .hero {
     height: 50vh;
@@ -346,11 +348,6 @@ a:hover{
     margin: auto;
 }
 
-.button > p {
-    font-weight: 700;
-    color: var(--blue);
-    margin: 0.8em;
-}
 
 .blue-box {
     background-color: var(--blue) !important;
