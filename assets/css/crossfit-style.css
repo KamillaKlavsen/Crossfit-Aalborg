@@ -306,6 +306,10 @@ a:hover{
     font-size: 40px;
 }
 
+.two-lines {
+    padding-top: 75px;
+}
+
 .black-box:hover{
     box-shadow: 0 0 0 3px var(--blue);
 }
