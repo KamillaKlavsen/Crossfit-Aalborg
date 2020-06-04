@@ -17,7 +17,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-
+/*
 // Modal til holdbeskrivelser
 
 //OPEN GYM
@@ -54,7 +54,7 @@ var holdModalId1 = document.getElementById("holdModalId1");
 var btn1 = document.getElementById("hold1");
 
 // Get the <span> element that closes the modal
-var span1 = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[1];
 
 // When the user clicks the button, open the modal 
 btn1.onclick = function() {
@@ -71,6 +71,6 @@ window.onclick = function(event) {
   if (event.target == holdModalId1) {
     holdModalId1.style.display = "none";
   }
-}
+}*/
 
 
