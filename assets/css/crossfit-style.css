@@ -250,12 +250,6 @@ a:hover{
     margin: auto 0;
 }
 
-.img-left{
-    width: 50vw;
-    z-index: 1;
-    display: block;
-    margin: auto 0;
-}
 /*billede til højre*/
 .img-right{
     transform: translateX(97.8%);
