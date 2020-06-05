@@ -23,33 +23,33 @@
     </div>
 
     <section class="hold-flex">
-        <div id="hold" class="hold-box btn">
+        <div class="modal-open" data-modal="modal1">
             <img src="assets/images/holdbeskrivelser/opengym.png" alt="open gym">
             <h3>Open gym</h3>
-        </div> 
-            <!--DER MANGLER EN SLUT DIV, MEN DET RYKKER RUNDT PÅ GRIDET. SÅ VIRKER CLOSE OGSÅ-->
+        </div>
 
-            <div id="holdModalId" class="holdModal">
-                <div class="hold-content">
-                    <div class="beige modal-box">
-                    <span class="close btn_close">&times;</span>
-                        <h2>Open Gym</h2>
-                    </div>
-                    <div class="hold-desc">
-                        <p>I dette tidsrum står vores træningsfaciliteter til rådighed for alle vores medlemmer. Her
-                            kan man træne på egen hånd, lave WODs, træne teknik eller lignende.
-                        <p>
-                    </div>
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Open Gym</h2>
+                    <button class="icon modal-close">
+                        <i class="material-icons">close</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <p>I dette tidsrum står vores træningsfaciliteter til rådighed for alle vores medlemmer. Her
+                    kan man træne på egen hånd, lave WODs, træne teknik eller lignende.
+                <p>
                 </div>
             </div>
-        
-        
+        </div>
+
 
         <div id="hold1" class="hold-box btn">
             <img src="assets/images/holdbeskrivelser/wod.png" alt="Mænd der træner">
             <h3>WOD</h3>
         </div>
-        
+
         <div id="holdModalId1" class="holdModal">
             <div class="hold-content">
                 <div class="beige modal-box">
@@ -62,7 +62,7 @@
                     <p>
                 </div>
             </div>
-        </div> 
+        </div>
 
 
 
