@@ -171,6 +171,8 @@ footer{
     height: 395px;
     max-width: 100%;
     background-color: var(--dark-section);
+    display: flex;
+    flex-direction: row;
 }
 footer > div > h3{
     color: var(--white);
@@ -181,20 +183,33 @@ footer > div > p{
 footer > ul > li{
     list-style-type: none;
 }
+.footer-div{
+    margin: 6vw;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+}
 .logo{
     width: 202px;
-    height: 65px;
+    height: 105px;
+    margin-bottom: 4vw;
+}
+footer a{
+    color: var(--white);
 }
 .icon{
     font-size: 4vw;
+    margin: 1vw;
     color: var(--white);
 }
 
 .SoMe{
-     display: flex;
+    
+}
+.icon-div{
+    display: flex;
     flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: space-around; */
 }
 
 /*link styling*/
