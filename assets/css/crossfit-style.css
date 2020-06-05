@@ -190,16 +190,17 @@ footer {
     flex-direction: row;
 }
 
-footer>div>h3 {
+.footer-div>h3 {
     color: var(--white);
 }
 
-footer>div>p {
+.footer-div>p {
     color: var(--white);
+
 }
 
 .footer-div{
-    margin: 6vw;
+    margin: 6vw 4vw;
 }
 .logos{
     display: flex;
@@ -207,7 +208,6 @@ footer>div>p {
 }
 .logos > img{
     margin-bottom: 2vw;
-
 }
 .logo{
     width: 202px;
@@ -218,6 +218,11 @@ footer a{
     color: var(--white);
 }
 
+.icon-div{
+    display: flex;
+    flex-direction: row;
+    transform: translate(-20px, 10px);
+}
 .icon {
     font-size: 4vw;
     margin: 1vw;
@@ -231,11 +236,6 @@ footer a{
 
 .SoMe{
     height: 65px;
-
-}
-.icon-div{
-    display: flex;
-    flex-direction: row;
 }
 
 /*link styling*/
