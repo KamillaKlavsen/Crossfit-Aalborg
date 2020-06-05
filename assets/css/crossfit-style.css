@@ -519,11 +519,11 @@ a:hover {
     padding: 8px 24px;
     z-index: 4;
 }
-.modal-header{
+/* .modal-header{
     background-color: var(--beige);
-}
+} */
 
-.modal-header .modal-close{
+.modal-close{
     float: right;
     font-size: 20px;
     color: var(--dark-section);
@@ -532,7 +532,7 @@ a:hover {
     padding: 5px 8px;
 }
 
-.hold-desc {
+.modal-body {
     padding: 5vw;
     line-height: 3.5vh;
 }
@@ -540,11 +540,11 @@ a:hover {
 .modal-box {
     background-color: var(--beige);
     height: 70px;
-}
+} 
 
 /* The Close Button */
 
-.btn_close {
+/* .btn_close {
     color: var(--dark-section);
     float: right;
     font-size: 6vw;
@@ -556,7 +556,7 @@ a:hover {
     color: var(--light-bg);
     text-decoration: none;
     cursor: pointer;
-}
+} */
 
 /*------------------HOLDPLAN------------------*/
 
