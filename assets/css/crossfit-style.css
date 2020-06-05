@@ -25,6 +25,7 @@ h2 {
     font-weight: 400;
     color: black;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h3 {
@@ -310,6 +311,7 @@ a:hover {
     right: 0;
     padding-left: 12vw;
     padding-right: 12vw;
+    display: table;
 }
 
 /* tekst til venstre*/
@@ -320,12 +322,17 @@ a:hover {
     position: absolute;
     padding-left: 12vw;
     padding-right: 12vw;
+    display: table;
 }
 
 .float {
     float: left;
 }
 
+.center {
+    display: table-cell;
+    vertical-align: middle;
+}
 /*-------sektion tre bokse-----*/
 
 .three-boxes {
