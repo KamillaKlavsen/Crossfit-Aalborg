@@ -22,7 +22,6 @@ for (i = 0; i < acc.length; i++) {
 
 //ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
 
-//OPEN GYM
 let modalBtns = document.querySelectorAll('.modal-open');
 
 modalBtns.forEach(function(btn) {
