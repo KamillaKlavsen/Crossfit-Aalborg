@@ -506,7 +506,7 @@ a:hover{
 }
 
 .show-more {
-    margin: 50px 228px ;
+    margin: 50px 12vw;
 }
 
 .accordion {
@@ -605,6 +605,24 @@ a:hover{
     margin: 10vh 0;
 }
 /*------------------REGLER------------------*/
+.regel-box {
+    padding: 20px 12vw 0;
+}
+
+.regel-box > .panel > ol > li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.regel-box > .panel > ol > li > ul > li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+.accordion > h4 {
+    margin: 0;
+}
+
 /*------------------SHOP------------------*/
 .shop {
     background-image: url(../images/hero/hero-billede4.png);
