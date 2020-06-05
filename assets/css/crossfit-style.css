@@ -198,6 +198,7 @@ footer {
 
 .footer-div:last-child{
     margin-right: 0;
+    width: min-content;
 }
 
 .footer-div>h3 {
@@ -211,6 +212,7 @@ footer {
 
 .footer-div{
     margin: 6vw 2vw;
+    width: 25%;
 }
 .logos{
     display: flex;
