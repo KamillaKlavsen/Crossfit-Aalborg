@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: var(--light-bg);
@@ -53,7 +53,9 @@ p {
 }
 
 /*------------------farver------------------*/
+
 /* Variabler */
+
 :root {
     --light-bg: #F7F9FF;
     --white: #FFFFFF;
@@ -61,38 +63,45 @@ p {
     --beige: #D9CFC7;
     --dark-section: #2E2E2E;
     --dark-blue: #0A2463;
-
 }
 
 /* farver på classes */
-.black{
+
+.black {
     color: var(--dark-section);
 }
-.blue-border{
+
+.blue-border {
     border: 3px;
     color: var(--blue);
 }
-.blue{
+
+.blue {
     color: var(--blue);
 }
-.white{
+
+.white {
     color: var(--white);
 }
 
-.white-bg{
+.white-bg {
     background-color: var(--white);
 }
 
-.white-blue{
+.white-blue {
     color: var(--light-bg);
 }
-.beige{
+
+.beige {
     background-color: var(--beige);
 }
-.dark-blue{
+
+.dark-blue {
     color: var(--dark-blue);
 }
+
 /*------------------NAVIGATION------------------*/
+
 nav {
     background-color: var(--dark-section);
     height: 67px;
@@ -105,40 +114,43 @@ nav {
     z-index: 10;
 }
 
-nav > img {
+nav>img {
     height: 67px;
     padding-left: 20px;
 }
 
-nav > ul{
+nav>ul {
     float: right;
     margin: 0 20px 0 0;
 }
-nav > ul > li{
-   list-style-type: none;
-   text-transform: uppercase;
-   display: inline-block;
-   position: relative;
+
+nav>ul>li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
 }
 
-nav > ul > li > a{
+nav>ul>li>a {
     color: var(--white);
     padding: 22px 10px;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
     background-color: var(--dark-section);
 }
-.opret{
+
+.opret {
     background-color: var(--blue);
     padding: 22px 0;
     text-align: center;
 }
+
 .opret:hover {
     color: var(--dark-section);
 }
 
-nav > ul > li > ul {
+nav>ul>li>ul {
     display: none;
     margin: 23px 0;
     padding: 0;
@@ -147,27 +159,28 @@ nav > ul > li > ul {
     background-color: var(--dark-section);
 }
 
-nav > ul > li:hover > ul {
+nav>ul>li:hover>ul {
     display: block;
 }
 
-nav > ul > li > ul > li {
-	list-style-type: none;
+nav>ul>li>ul>li {
+    list-style-type: none;
     display: block;
     padding: 15px 5px;
 }
 
-nav > ul > li > ul > li > a {
+nav>ul>li>ul>li>a {
     color: var(--white);
     padding: 15px 5px;
 }
 
-nav > ul > li > ul > li:hover {
+nav>ul>li>ul>li:hover {
     background-color: rgb(36, 36, 36);
 }
 
 /*------------------FOOTER------------------*/
-footer{
+
+footer {
     height: 395px;
     line-height: 2.0vw;
     max-width: 100%;
@@ -175,10 +188,12 @@ footer{
     display: flex;
     flex-direction: row;
 }
-footer > div > h3{
+
+footer>div>h3 {
     color: var(--white);
 }
-footer > div > p{
+
+footer>div>p {
     color: var(--white);
 }
 
@@ -201,7 +216,8 @@ footer > div > p{
 footer a{
     color: var(--white);
 }
-.icon{
+
+.icon {
     font-size: 4vw;
     margin: 1vw;
     /* margin-top: 2vw; */
@@ -222,6 +238,7 @@ footer a{
 }
 
 /*link styling*/
+
 a {
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
@@ -229,7 +246,8 @@ a {
     cursor: pointer;
     color: var(--blue);
 }
-a:hover{
+
+a:hover {
     color: var(--blue);
 }
 
@@ -237,37 +255,39 @@ a:hover{
     margin-top: 30px;
 }
 
-.button > a {
+.button>a {
     color: var(--blue);
     font-weight: 700;
     padding: 13px 61px;
     border: 3px solid var(--blue);
 }
+
 /* hero billeder */
+
 .hero {
     height: 50vh;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-
-
 /*------------------FORSIDE------------------*/
 
-
 /*hero video*/
-.hero-video{
+
+.hero-video {
     width: 100%;
 }
 
 /*-------sektion livskvalitet-------*/
-.img-text{
+
+.img-text {
     display: flex;
     margin: 50px 0;
     height: 83vh;
 }
 
 /* billede til venstre*/
+
 .img {
     width: 50vw;
     z-index: 1;
@@ -276,22 +296,25 @@ a:hover{
 }
 
 /*billede til højre*/
-.img-right{
+
+.img-right {
     transform: translateX(97.8%);
 }
 
 /*tekst til højre*/
-.right-box{
+
+.right-box {
     height: 83vh;
     width: 56vw;
     position: absolute;
     right: 0;
     padding-left: 12vw;
-    padding-right: 12vw;   
+    padding-right: 12vw;
 }
 
 /* tekst til venstre*/
-.left-box{
+
+.left-box {
     height: 83vh;
     width: 56vw;
     position: absolute;
@@ -303,9 +326,9 @@ a:hover{
     float: left;
 }
 
-
 /*-------sektion tre bokse-----*/
-.three-boxes{
+
+.three-boxes {
     height: 400px;
     width: 100%;
     background-color: var(--dark-section);
@@ -318,7 +341,7 @@ a:hover{
     padding: 0 12vw;
 }
 
-.black-box{
+.black-box {
     background-color: #0B0F18;
     /*laves responsivt*/
     height: 260px;
@@ -335,12 +358,12 @@ a:hover{
     padding-top: 75px;
 }
 
-.black-box:hover{
+.black-box:hover {
     box-shadow: 0 0 0 3px var(--blue);
 }
 
-
 /*------------------PRISER------------------*/
+
 .priser {
     background-image: url(../images/hero/hero-billede7.png);
 }
@@ -352,7 +375,7 @@ a:hover{
     justify-content: space-between;
 }
 
-.pris-box > article{
+.pris-box>article {
     width: 32%;
     background-color: var(--beige);
     text-align: center;
@@ -360,7 +383,7 @@ a:hover{
     margin-bottom: 20px;
 }
 
-.pris-box > article:nth-child(even) {
+.pris-box>article:nth-child(even) {
     background-color: #E8DFD8;
 }
 
@@ -370,13 +393,14 @@ a:hover{
     font-family: 'Oswald', sans-serif;
 }
 
-.pris-box > article > a > .button {
+.pris-box>article>a>.button {
     margin: auto;
 }
 
 .top {
     margin-top: 0;
 }
+
 .bottom {
     margin-bottom: 0;
 }
@@ -385,16 +409,17 @@ a:hover{
     background-color: var(--blue) !important;
 }
 
-
 /*------------------Fordele------------------*/
+
 /*------------------GIRLS BOOTCAMP------------------*/
-.girls-boot{
+
+.girls-boot {
     background-image: url('../images/hero/hero-billede7.png');
 }
 
-
 /*------------------HANDELSBETINGELSER------------------*/
-.handelsbetingelser{
+
+.handelsbetingelser {
     background-image: url('../images/hero/hero-billede8.png');
 }
 
@@ -406,22 +431,32 @@ a:hover{
     padding: 5% 12vw 5% 5vw;
 }
 
-.handel1{grid-area: handel1;}
-.handel2{grid-area: handel2;}
-.handel3{grid-area: handel3;}
-.handel4{grid-area: handel4;}
+.handel1 {
+    grid-area: handel1;
+}
 
-.grid-handel{
+.handel2 {
+    grid-area: handel2;
+}
+
+.handel3 {
+    grid-area: handel3;
+}
+
+.handel4 {
+    grid-area: handel4;
+}
+
+.grid-handel {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-areas:
-    'handel1 handel2'
-    'handel3 handel4' ;
+    grid-template-areas: 'handel1 handel2' 'handel3 handel4';
     margin: 10vh 0;
 }
 
 /*------------------HOLDBESKRIVELSER------------------*/
-.holdbeskriv{
+
+.holdbeskriv {
     background-image: url(../images/hero/hero-billede3.png);
 }
 
@@ -440,11 +475,11 @@ a:hover{
     cursor: pointer;
 }
 
-.hold-box > img {
+.hold-box>img {
     width: 100%;
 }
 
-.hold-box:nth-child(3n+2){
+.hold-box:nth-child(3n+2) {
     transform: translateY(160px);
 }
 
@@ -455,19 +490,28 @@ a:hover{
 /*MODAL*/
 
 .holdModal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /*Enable scroll if needed*/
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /*Enable scroll if needed*/
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
+
 .hold-content {
     background-color: #fefefe;
     height: 50vh;
@@ -477,55 +521,57 @@ a:hover{
     width: 35%;
 }
 
-.hold-desc{
+.hold-desc {
     padding: 5vw;
     line-height: 3.5vh;
 }
-.modal-box{
+
+.modal-box {
     background-color: var(--beige);
     height: 70px;
 }
 
-  /* The Close Button */
+/* The Close Button */
+
 .btn_close {
     color: var(--dark-section);
     float: right;
     font-size: 6vw;
     font-weight: bold;
     transform: translate(-20px, -20px);
-  }
-  
-.btn_close:hover,
-.btn_close:focus {
+}
+
+.btn_close:hover, .btn_close:focus {
     color: var(--light-bg);
     text-decoration: none;
     cursor: pointer;
 }
 
-
-
 /*------------------HOLDPLAN------------------*/
+
 .holdplan {
     padding: 50px 12vw;
 }
-.holdplan > img {
+
+.holdplan>img {
     width: 100%;
 }
 
-
 /*------------------INTROFORLØB------------------*/
-.introforløb{
+
+.introforløb {
     background-image: url('../images/hero/hero-billede1.png');
 }
 
 /*------------------KOSTVEJLEDNING------------------*/
-.kostvejledning{
+
+.kostvejledning {
     background-image: url('../images/hero/hero-billede2.png');
 }
 
-
 /*------------------MEDLEMSBETINGELSER------------------*/
-.medlemsbetingelser{
+
+.medlemsbetingelser {
     background-image: url(../images/hero/hero-billede8.png);
 }
 
@@ -544,10 +590,10 @@ a:hover{
     outline: none;
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
+}
+
 .active, .accordion:hover {
-    background-color: #E8DFD8; 
+    background-color: #E8DFD8;
 }
 
 .active {
@@ -561,19 +607,45 @@ a:hover{
     overflow: hidden;
     margin-bottom: 10px;
 }
+
 /*------------------NYE MEDLEMMER------------------*/
+
 .nye-medlemmer {
     background-image: url(../images/hero/hero-billede1.png);
 }
 
 /* infografik svg elementer*/
-.st0{fill:#FFFFFF;}
-.st1{fill:none;stroke:#57C7F2;stroke-width:3;}
-.st2{font-family:'Noto Sans', sans-serif; font-weight: 700;}
-.st3{font-size:19.6938px;}
-.st4{fill:#0A2463;}
-.st5{font-family:'Oswald', sans-serif;}
-.st6{font-size:41.1779px;}
+
+.st0 {
+    fill: #FFFFFF;
+}
+
+.st1 {
+    fill: none;
+    stroke: #57C7F2;
+    stroke-width: 3;
+}
+
+.st2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+.st3 {
+    font-size: 19.6938px;
+}
+
+.st4 {
+    fill: #0A2463;
+}
+
+.st5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.st6 {
+    font-size: 41.1779px;
+}
 
 .buttons {
     display: flex;
@@ -582,6 +654,7 @@ a:hover{
 }
 
 /*------------------OM CFAA------------------*/
+
 .om-os {
     background-image: url(../images/hero/hero-billede8.png);
 }
@@ -592,13 +665,14 @@ a:hover{
     padding: 80px 12vw;
 }
 
-.dark-section > h3 {
+.dark-section>h3 {
     color: var(--white);
     text-align: center;
 }
 
 /*------------------PERSONLIG TRÆNING------------------*/
-.personlig-træning{
+
+.personlig-træning {
     background-image: url('../images/hero/hero-billede2.png');
 }
 
@@ -610,41 +684,56 @@ a:hover{
     padding: 5% 12vw 5% 100px;
 }
 
-.personlig1{grid-area: personlig1;}
-.personlig2{grid-area: personlig2;}
-.personlig3{grid-area: personlig3;}
-.personlig4{grid-area: personlig4;}
-.personlig5{grid-area: personlig5;}
-.personlig6{grid-area: personlig6;}
+.personlig1 {
+    grid-area: personlig1;
+}
 
+.personlig2 {
+    grid-area: personlig2;
+}
 
+.personlig3 {
+    grid-area: personlig3;
+}
 
-.grid-personlig{
+.personlig4 {
+    grid-area: personlig4;
+}
+
+.personlig5 {
+    grid-area: personlig5;
+}
+
+.personlig6 {
+    grid-area: personlig6;
+}
+
+.grid-personlig {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-areas:
-    'personlig1 personlig2'
-    'personlig3 personlig4'
-    'personlig5 personlig6' ;
+    grid-template-areas: 'personlig1 personlig2' 'personlig3 personlig4' 'personlig5 personlig6';
     margin: 10vh 0;
 }
+
 /*------------------REGLER------------------*/
 
-.regel-box > .panel > ol > li {
+.regel-box>.panel>ol>li {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.regel-box > .panel > ol > li > ul > li{
+.regel-box>.panel>ol>li>ul>li {
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
 }
-.accordion > h4 {
+
+.accordion>h4 {
     margin: 0;
 }
 
 /*------------------SHOP------------------*/
+
 .shop {
     background-image: url(../images/hero/hero-billede4.png);
 }
@@ -660,7 +749,7 @@ a:hover{
     width: 100%;
 }
 
-.shop-box > article{
+.shop-box>article {
     width: 32%;
     background-color: var(--white);
     text-align: center;
@@ -669,16 +758,117 @@ a:hover{
 }
 
 /*------------------VIRKSOMHED------------------*/
-.virksomhed{
+
+.virksomhed {
     background-image: url('../images/hero/hero-billede7.png');
 }
 
 /*------------------VORES TRÆNING------------------*/
-.træning{
-    background-image: url('../images/hero/hero-billede7.png');
 
+.træning {
+    background-image: url('../images/hero/hero-billede7.png');
 }
 
 
 
-/*-----------TEST-----------*/
+/*       TEST        */
+.mySlides {
+    display: none
+}
+
+.imgTest {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 350px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
