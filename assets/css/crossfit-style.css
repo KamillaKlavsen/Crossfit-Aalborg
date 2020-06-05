@@ -192,6 +192,14 @@ footer {
     justify-content: space-evenly;
 }
 
+.footer-div:first-child{
+    margin-left: 0;
+}
+
+.footer-div:last-child{
+    margin-right: 0;
+}
+
 .footer-div>h3 {
     color: var(--white);
 }
