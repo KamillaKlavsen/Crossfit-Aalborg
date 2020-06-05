@@ -605,9 +605,6 @@ a:hover{
     margin: 10vh 0;
 }
 /*------------------REGLER------------------*/
-.regel-box {
-    padding: 20px 12vw 0;
-}
 
 .regel-box > .panel > ol > li {
     font-family: 'Noto Sans', sans-serif;
