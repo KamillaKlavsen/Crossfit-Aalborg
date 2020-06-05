@@ -233,17 +233,18 @@ footer a{
 .icon-div{
     display: flex;
     flex-direction: row;
-    transform: translate(-20px, 10px);
+    margin-top: 10px;
 }
 .icon {
     font-size: 4vw;
-    margin: 1vw;
+    margin: 1vw 0;
     /* margin-top: 2vw; */
 }
 .face-icon{
     border-radius: 20px;
     height: 55px;
     width: 65px;
+    margin-right: 20px;
 }
 
 .SoMe{
