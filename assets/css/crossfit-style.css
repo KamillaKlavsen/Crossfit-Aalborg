@@ -299,7 +299,7 @@ a:hover{
     /*laves responsivt*/
     height: 260px;
     width: 32%;
-    padding: 100px 0;
+    padding: 100px 30px;
     text-align: center;
     color: var(--white);
     text-transform: uppercase;
@@ -657,3 +657,4 @@ a:hover{
 
 
 
+/*-----------TEST-----------*/
