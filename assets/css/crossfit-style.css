@@ -606,6 +606,29 @@ a:hover{
 }
 /*------------------REGLER------------------*/
 /*------------------SHOP------------------*/
+.shop {
+    background-image: url(../images/hero/hero-billede4.png);
+}
+
+.shop-box {
+    padding: 60px 12vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop-box img {
+    width: 100%;
+}
+
+.shop-box > article{
+    width: 32%;
+    background-color: var(--white);
+    text-align: center;
+    margin-bottom: 20px;
+    min-height: 495px;
+}
+
 /*------------------VIRKSOMHED------------------*/
 .virksomhed{
     background-image: url('../images/hero/hero-billede7.png');
