@@ -381,6 +381,7 @@ a:hover {
     text-align: center;
     padding: 3% 6%;
     margin-bottom: 20px;
+    box-shadow: 0px 3px 6px 0px #b2b2b2;
 }
 
 .pris-box>article:nth-child(even) {
@@ -452,6 +453,7 @@ a:hover {
     grid-template-columns: 50% 50%;
     grid-template-areas: 'handel1 handel2' 'handel3 handel4';
     margin: 10vh 0;
+    box-shadow: 0px 3px 6px 0px #b2b2b2;
 }
 
 /*------------------HOLDBESKRIVELSER------------------*/
@@ -473,6 +475,7 @@ a:hover {
     text-align: center;
     margin-bottom: 25px;
     cursor: pointer;
+    box-shadow: 0px 3px 6px 0px #b2b2b2;
 }
 
 .hold-box>img {
@@ -713,6 +716,7 @@ a:hover {
     grid-template-columns: 50% 50%;
     grid-template-areas: 'personlig1 personlig2' 'personlig3 personlig4' 'personlig5 personlig6';
     margin: 10vh 0;
+    box-shadow: 0px 3px 6px 0px #b2b2b2;
 }
 
 /*------------------REGLER------------------*/
@@ -743,6 +747,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .shop-box img {
@@ -755,6 +760,7 @@ a:hover {
     text-align: center;
     margin-bottom: 20px;
     min-height: 495px;
+    box-shadow: 0px 3px 6px 0px #b2b2b2;
 }
 
 /*------------------VIRKSOMHED------------------*/
