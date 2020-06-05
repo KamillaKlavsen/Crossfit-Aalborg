@@ -272,8 +272,13 @@ a:hover {
 .button>a {
     color: var(--blue);
     font-weight: 700;
-    padding: 13px 61px;
+    padding: 13px 45px;
     border: 3px solid var(--blue);
+    transition: ease-out .8s;
+}
+.button>a:hover {
+    color: var(--dark-section);
+    box-shadow: inset 15vw 0 0 0 var(--blue);
 }
 
 /* hero billeder */
