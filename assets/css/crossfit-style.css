@@ -489,7 +489,7 @@ a:hover {
     width: 100%;
 }
 
-.hold-box:nth-child(3n+2) {
+.hold-box:nth-child(3n+3) {
     transform: translateY(160px);
 }
 
