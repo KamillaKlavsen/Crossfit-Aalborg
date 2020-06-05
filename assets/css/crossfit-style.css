@@ -182,6 +182,7 @@ nav>ul>li>ul>li:hover {
 
 footer {
     height: 395px;
+    line-height: 2.0vw;
     max-width: 100%;
     background-color: var(--dark-section);
     display: flex;
@@ -196,15 +197,16 @@ footer>div>p {
     color: var(--white);
 }
 
-footer>ul>li {
-    list-style-type: none;
-}
 .footer-div{
     margin: 6vw;
 }
 .logos{
     display: flex;
     flex-direction: column;
+}
+.logos > img{
+    margin-bottom: 2vw;
+
 }
 .logo{
     width: 202px;
@@ -218,9 +220,18 @@ footer a{
 .icon {
     font-size: 4vw;
     margin: 1vw;
-    color: var(--white);
+    /* margin-top: 2vw; */
+}
+.face-icon{
+    border-radius: 20px;
+    height: 55px;
+    width: 65px;
 }
 
+.SoMe{
+    height: 65px;
+
+}
 .icon-div{
     display: flex;
     flex-direction: row;
