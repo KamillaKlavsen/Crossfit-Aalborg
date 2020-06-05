@@ -314,7 +314,7 @@ a:hover{
     /*laves responsivt*/
     height: 260px;
     width: 32%;
-    padding: 100px 0;
+    padding: 100px 30px;
     text-align: center;
     color: var(--white);
     text-transform: uppercase;
@@ -521,7 +521,7 @@ a:hover{
 }
 
 .show-more {
-    margin: 50px 228px ;
+    margin: 50px 12vw;
 }
 
 .accordion {
@@ -620,6 +620,21 @@ a:hover{
     margin: 10vh 0;
 }
 /*------------------REGLER------------------*/
+
+.regel-box > .panel > ol > li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.regel-box > .panel > ol > li > ul > li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+.accordion > h4 {
+    margin: 0;
+}
+
 /*------------------SHOP------------------*/
 .shop {
     background-image: url(../images/hero/hero-billede4.png);
@@ -657,3 +672,4 @@ a:hover{
 
 
 
+/*-----------TEST-----------*/
