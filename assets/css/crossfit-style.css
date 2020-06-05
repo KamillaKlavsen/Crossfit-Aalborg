@@ -688,11 +688,11 @@ a:hover {
 }
 
 .personlig-grid:nth-child(odd) {
-    padding: 5% 100px 5% 12vw;
+    padding: 5% 5vw 5% 12vw;
 }
 
 .personlig-grid:nth-child(even) {
-    padding: 5% 12vw 5% 100px;
+    padding: 5% 12vw 5% 5vw;
 }
 
 .personlig1 {
