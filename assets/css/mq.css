@@ -33,6 +33,12 @@
         /* font-size: 10px; */
     }
 
+    /*NAVIGATION*/
+    .nav-forside {
+        background-color: var(--dark-section);
+        position: static;
+    }
+
     /*FOOTER*/
     footer{
         height: 509px;
@@ -83,13 +89,13 @@
 
     /*-------sektion livskvalitet-------*/
     .img-text {
-        display: flex;
-        flex-direction: column;
-        /* margin: 50px 0;
-        height: 83vh; */
+        display: block;
+        height: fit-content;
     }
+
     .img {
         width: 100%;
+        z-index: initial;
     }
     .img-right{
         transform: translateX(0%);
@@ -97,16 +103,18 @@
     .right-box, .left-box {
         height: 103px;
         width: 100%;
+        position: static;
         /* position: absolute;
         right: 0;
         padding-left: 12vw;
         padding-right: 12vw;
         display: table; */
     }
-      .center{
+    .center{
         display: flex;
         flex-direction: row;
     }
+
     .p-hide{
         display: none;
     }

@@ -306,7 +306,6 @@ a:hover {
 }
 
 /* billede til venstre*/
-
 .img {
     width: 50vw;
     z-index: 1;
@@ -315,13 +314,11 @@ a:hover {
 }
 
 /*billede til højre*/
-
 .img-right {
     transform: translateX(97.8%);
 }
 
 /*tekst til højre*/
-
 .right-box {
     height: 83vh;
     width: 56vw;
