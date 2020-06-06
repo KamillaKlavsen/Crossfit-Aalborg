@@ -33,8 +33,16 @@
         /* font-size: 10px; */
     }
 
+    /*FOOTER*/
+    footer{
+        height: 509px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
     /*------------------FORSIDE------------------*/
-    /*livskvalitet sektion*/
+    /*-------sektion livskvalitet-------*/
     .img-text {
         display: flex;
         flex-direction: column;
@@ -64,6 +72,18 @@
         flex-direction: row;
     }
 
+    /*-------sektion tre bokse-----*/
+    .three-boxes{
+        height: 231px;
+    }
+
+    .black-box{
+        height: 187px;
+        width: 32%;
+        padding: 100px 30px;
+        font-size: 15px;
+
+    }
 
 
 
