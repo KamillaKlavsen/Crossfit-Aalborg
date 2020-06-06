@@ -176,6 +176,11 @@
         display: none;
     }
 
+    /* Modal */
+    .modal-content {
+        width: 80%;
+        margin: 30% 7%;
+    }
 
 
 
@@ -193,8 +198,6 @@
         margin: 30px 0;
         box-shadow: none;
     }
-
-
 
     /*------------------OM CFAA------------------*/
     /*------------------PERSONLIG TRÆNING------------------*/
