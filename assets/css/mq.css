@@ -3,8 +3,48 @@
     /* fælles for alle sider*/
 
     /*Overskrifter*/
+    h1 {
+        font-size: 50px;
+        /* padding: 14vh; */
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    h4 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    
+    p {
+        font-size: 10px;
+    }
 
     /*------------------FORSIDE------------------*/
+    /*livskvalitet sektion*/
+    .img {
+        width: 100%;
+    }
+    .right-box {
+        height: 83vh;
+        width: 100%;
+        
+        /* position: absolute;
+        right: 0;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        display: table; */
+
+
+
     /*------------------GIRL'S BOOTCAMP------------------*/
     /*------------------HANDELSBETINGELSER------------------*/
     /*------------------HOLDBESKRIVELSER - KOPI2------------------*/
