@@ -10,7 +10,7 @@
     }
     
     h2 {
-        font-size: 30px;
+        font-size: 25px;
         margin: 0;
     }
     
@@ -20,12 +20,12 @@
     }
     
     h4 {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 0;
     }
     
     p {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     /*links*/
@@ -40,18 +40,40 @@
     }
 
     /*FOOTER*/
-    footer{
-        height: 509px;
-        display: flex;
-        flex-direction: column;
+
+    .logos {grid-area: logos;}
+    .kontakt {grid-area: kontakt;}
+    .åbningstider {grid-area: åben;}
+    footer:last-child {grid-area: social;}
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'åben'
+        'kontakt'
+        'social'
+        'logos';
+        height: fit-content;
+        line-height: 1.2;
+    }
+
+    .footer-div {
+        margin: 6vw 0;
+        width: 100%;
         text-align: center;
     }
-    .SoMe{
-        height: 15px;
+    .footer-div:last-child {
+        margin: auto;
     }
-    .face-icon{
-        width: 15px;
+
+    .logos{
+        display: block;
     }
+    .logos > img{
+        margin-bottom: 2vw;
+    }
+
 
     /*hero*/
     .hero{
