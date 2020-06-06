@@ -28,20 +28,44 @@
         font-size: 10px;
     }
 
+    /*links*/
+    .button>a{
+        /* font-size: 10px; */
+    }
+
     /*------------------FORSIDE------------------*/
     /*livskvalitet sektion*/
+    .img-text {
+        display: flex;
+        flex-direction: column;
+        /* margin: 50px 0;
+        height: 83vh; */
+    }
     .img {
         width: 100%;
     }
-    .right-box {
-        height: 83vh;
+    .img-right{
+        transform: translateX(0%);
+    }
+    .right-box, .left-box {
+        height: 103px;
         width: 100%;
-        
         /* position: absolute;
         right: 0;
         padding-left: 12vw;
         padding-right: 12vw;
         display: table; */
+    }
+    .p-hide{
+        display: none;
+    }
+    .center{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
 
 
 
