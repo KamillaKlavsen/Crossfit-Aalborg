@@ -1,3 +1,12 @@
+:root {
+    --light-bg: #F7F9FF;
+    --white: #FFFFFF;
+    --blue: #57C7F2;
+    --beige: #D9CFC7;
+    --dark-section: #2E2E2E;
+    --dark-blue: #0A2463;
+}
+
 @media screen and (min-width: 320px) and (max-width: 600px){
     /*SKAL SES MED IPHONE X*/
     /* fælles for alle sider*/
@@ -138,16 +147,21 @@
 
     /*------------------GIRL'S BOOTCAMP------------------*/
     /*------------------HANDELSBETINGELSER------------------*/
-    .grid-handel{
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-areas: 
-    'handel1' 
-    'handel2' 
-    'handel4'
-    'handel3';
+    .grid-handel {
+        display: block;
+        box-shadow: none;
+        margin: 30px 0;
     }
 
+    .handel-grid:nth-child(odd) {
+        padding: 20px 12vw;
+        background-color: var(--beige);
+    }
+    
+    .handel-grid:nth-child(even) {
+        padding: 20px 12vw;
+        background-color: var(--white);
+    }
 
     /*------------------HOLDBESKRIVELSER - KOPI2------------------*/
     .hold-flex {
@@ -174,8 +188,32 @@
     /*------------------KOSTVEJLEDNING------------------*/
     /*------------------MEDLEMSBETINGELSER------------------*/
     /*------------------NYE MEDLEMMER------------------*/
+    .buttons {
+        display: none;
+    }
+
+    .grid-personlig {
+        display: block;
+        margin: 30px 0;
+        box-shadow: none;
+    }
+
+
+
     /*------------------OM CFAA------------------*/
     /*------------------PERSONLIG TRÆNING------------------*/
+    
+    .personlig-grid:nth-child(odd) {
+        padding: 20px 12vw;
+        background-color: var(--beige);
+    }
+    
+    .personlig-grid:nth-child(even) {
+        padding: 20px 12vw;
+        background-color: var(--white);
+    }
+
+
     /*------------------PRISER------------------*/
     
     /* skal selfølgelig vises, det er bare mens jeg redigere resten af siden */
@@ -202,13 +240,6 @@
     /*------------------REGLER------------------*/
     /*------------------SHOP------------------*/
     /*------------------VIRKSOMHED------------------*/
-
-
-
-
-
-
-
 
     /*------------------VORES TRÆNING------------------*/
 
