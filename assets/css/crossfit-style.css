@@ -265,6 +265,10 @@ a:hover {
     color: var(--blue);
 }
 
+a:active {
+    background-color: var(--blue);
+}
+
 .button {
     margin-top: 30px;
 }
@@ -274,7 +278,7 @@ a:hover {
     font-weight: 700;
     padding: 13px 45px;
     border: 3px solid var(--blue);
-    transition: ease-out .8s;
+    transition: ease-out .5s;
 }
 .button>a:hover {
     color: var(--dark-section);
@@ -768,7 +772,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .shop-box img {
@@ -781,9 +784,16 @@ a:hover {
     text-align: center;
     margin-bottom: 20px;
     min-height: 495px;
-    box-shadow: 0px 3px 6px 0px #b2b2b2;
 }
 
+.img-mobile {
+    display: none;
+}
+
+.shop-box>article:hover {
+    box-shadow: 0px 3px 6px 0px #b2b2b2;
+    transition: ease-out .3s;
+}
 /*------------------VIRKSOMHED------------------*/
 
 .virksomhed {
