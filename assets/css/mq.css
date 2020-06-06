@@ -5,7 +5,7 @@
     /*Overskrifter*/
     h1 {
         font-size: 50px;
-        /* padding: 14vh; */
+        padding: 4vh; 
         margin: 0;
     }
     
@@ -29,6 +29,10 @@
     }
 
     /*links*/
+    .button {
+        margin-bottom: 20px;
+    }
+
     .button>a{
         /* font-size: 10px; */
     }
@@ -107,8 +111,8 @@
         display: table; */
     }
     .center{
-        display: flex;
-        flex-direction: row;
+        display: block;
+
     }
 
     .p-hide{
@@ -146,7 +150,22 @@
 
 
     /*------------------HOLDBESKRIVELSER - KOPI2------------------*/
-   
+    .hold-flex {
+        display: block;
+    }
+
+    .hold-box {
+        width: 100%;
+    }
+
+    .hold-box:nth-child(3n+3) {
+        transform: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
 
 
 
@@ -158,9 +177,39 @@
     /*------------------OM CFAA------------------*/
     /*------------------PERSONLIG TRÆNING------------------*/
     /*------------------PRISER------------------*/
+    
+    /* skal selfølgelig vises, det er bare mens jeg redigere resten af siden */
+    nav {
+        display: none;
+    }
+
+    .pris-box {
+        padding: 0 12vw;
+        display: block;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-between;*/
+    }
+    
+    .pris-box>article {
+        width: 100%;
+        min-height: 202px;
+    }
+
+    .medlemspris {
+        margin-top: 10px;
+    }
+
     /*------------------REGLER------------------*/
     /*------------------SHOP------------------*/
     /*------------------VIRKSOMHED------------------*/
+
+
+
+
+
+
+
+
     /*------------------VORES TRÆNING------------------*/
 
 
