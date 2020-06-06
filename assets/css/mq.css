@@ -47,6 +47,11 @@
         width: 15px;
     }
 
+    /*hero*/
+    .hero{
+        height: 146px;
+    }
+
     /*------------------FORSIDE------------------*/
     /*-------sektion livskvalitet-------*/
     .img-text {
@@ -70,12 +75,12 @@
         padding-right: 12vw;
         display: table; */
     }
-    .p-hide{
-        display: none;
-    }
-    .center{
+      .center{
         display: flex;
         flex-direction: row;
+    }
+    .p-hide{
+        display: none;
     }
 
     /*-------sektion tre bokse-----*/
@@ -97,6 +102,17 @@
 
     /*------------------GIRL'S BOOTCAMP------------------*/
     /*------------------HANDELSBETINGELSER------------------*/
+    .grid-handel{
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: 
+    'handel1' 
+    'handel2' 
+    'handel4'
+    'handel3';
+    }
+
+
     /*------------------HOLDBESKRIVELSER - KOPI2------------------*/
     /*------------------HOLDPLAN------------------*/
     /*------------------INTROFORLØB------------------*/
@@ -110,7 +126,7 @@
     /*------------------SHOP------------------*/
     /*------------------VIRKSOMHED------------------*/
     /*------------------VORES TRÆNING------------------*/
- 
+
 
 
 
