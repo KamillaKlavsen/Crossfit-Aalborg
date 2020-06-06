@@ -40,6 +40,12 @@
         flex-direction: column;
         text-align: center;
     }
+    .SoMe{
+        height: 15px;
+    }
+    .face-icon{
+        width: 15px;
+    }
 
     /*------------------FORSIDE------------------*/
     /*-------sektion livskvalitet-------*/
