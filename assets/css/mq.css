@@ -11,7 +11,7 @@
     
     h2 {
         font-size: 25px;
-        margin: 0;
+        margin: 14px 0;
     }
     
     h3 {
@@ -82,37 +82,11 @@
 
     /*------------------FORSIDE------------------*/
     
-    .img1{grid-area: img;}
-    .img-right{grid-area: img-right;}
-    .img2{grid-area: img2;}
-    .right-box1{grid-area: right-box;}
-    .right-box2{grid-area: right-box;}
-    .left-box{grid-area: left-box;}
-    .three-box1{grid-area: three-box1;}
-    .three-box2{grid-area: three-box2;}
-
-
-    /* .mq-grid{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        'img1'
-        'right-box1'
-        'three-box1'
-        'img-right'
-        'left-box'
-        'three-box2'
-        'img2'
-        'right-box2'
-        ;
-    } */
-
-
-
     /*-------sektion livskvalitet-------*/
     .img-text {
         display: block;
         height: fit-content;
+        margin: 30px 0;
     }
 
     .img {
