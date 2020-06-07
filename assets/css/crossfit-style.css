@@ -271,10 +271,6 @@ a:hover {
     color: var(--blue);
 }
 
-a:active {
-    background-color: var(--blue);
-}
-
 .button {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -289,7 +285,7 @@ a:active {
 }
 .button>a:hover {
     color: var(--dark-section);
-    box-shadow: inset 15vw 0 0 0 var(--blue);
+    box-shadow: inset 20vw 0 0 0 var(--blue);
 }
 
 /* hero billeder */
@@ -478,6 +474,83 @@ a:active {
 }
 
 /*------------------Fordele------------------*/
+/*       Slider        */
+.fordele {
+    background-color: var(--beige);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.slider-container {
+  width: 76vw;
+  margin: 0 12vw;
+  padding: 50px 0;
+  min-height: 200px;
+  position: relative;
+}
+
+.slider-container .slider-inner {
+  overflow: hidden;
+}
+.slider-container .track {
+  display: inline-flex;
+  transition: transform 0.5s;
+}
+.slider-container .card-container {
+  width: 19vw;
+  flex-shrink: 0;
+  padding-right: 1vw;
+}
+.slider-container .card-container .card {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav button {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-20%);
+  cursor: pointer;
+  background-color: var(--beige);
+  border: none;
+}
+
+button:active {
+    border-style: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.nav .tilbage {
+  left: -80px;
+}
+.nav .tilbage.show {
+  display: block;
+}
+.nav .frem {
+  right: -80px;
+}
+.nav .frem.hide {
+  display: none;
+}
+
+.card > * {
+  flex: 1;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 50px;
+}
 
 /*------------------GIRLS BOOTCAMP------------------*/
 
@@ -891,79 +964,5 @@ a:active {
 
 
 
-/*       Slider        */
-.fordele {
-    background-color: var(--beige);
-    width: 100%;
-    height: 350px;
-}
 
-.slider-container {
-  width: 76vw;
-  margin: 0 12vw;
-  padding: 50px 0;
-  min-height: 200px;
-  position: relative;
-}
-
-.slider-container .slider-inner {
-  overflow: hidden;
-}
-.slider-container .track {
-  display: inline-flex;
-  transition: transform 0.5s;
-}
-.slider-container .card-container {
-  width: 19vw;
-  flex-shrink: 0;
-  padding-right: 1vw;
-}
-.slider-container .card-container .card {
-  width: 100%;
-  height: 100%;
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.nav button {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-20%);
-  cursor: pointer;
-  background-color: var(--beige);
-  border: none;
-}
-
-button:active {
-    border-style: none;
-}
-
-button:focus {
-    outline: none;
-}
-
-.nav .tilbage {
-  left: -80px;
-}
-.nav .tilbage.show {
-  display: block;
-}
-.nav .frem {
-  right: -80px;
-}
-.nav .frem.hide {
-  display: none;
-}
-
-.card > * {
-  flex: 1;
-}
-
-.fa-chevron-left, .fa-chevron-right {
-    font-size: 50px;
-}
 
