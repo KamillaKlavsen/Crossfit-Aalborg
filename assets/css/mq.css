@@ -146,7 +146,11 @@
     }
 
     /*------------------FORSIDE------------------*/
-    
+    .fa-arrow-down {
+        display: none;
+    }
+
+
     /*-------sektion livskvalitet-------*/
     .img-text {
         display: block;

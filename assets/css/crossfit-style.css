@@ -308,6 +308,26 @@ a:active {
     width: 100%;
 }
 
+.fa-arrow-down {
+    font-size: 50px;
+    color: var(--white);
+}
+
+.bounce {
+    position: absolute;
+    z-index: 100;
+    top: 92%;
+    left: 50%;
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
+}
 /*-------sektion livskvalitet-------*/
 
 .img-text {
