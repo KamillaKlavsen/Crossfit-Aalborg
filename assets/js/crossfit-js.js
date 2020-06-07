@@ -49,34 +49,35 @@ window.onclick = function(event){
 
 // Billede slider 
 
-const prev  = document.querySelector('.prev');
-const next = document.querySelector('.next');
+const tilbage  = document.querySelector('.tilbage');
+const frem = document.querySelector('.frem');
 
 const track = document.querySelector('.track');
 
-let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+let sliderWidth = document.querySelector('.slider-container').offsetWidth;
 
-window.addEventListener('resize', () => {
-  carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+window.addEventListener('resize', function()  {
+  sliderWidth = document.querySelector('.slider-container').offsetWidth;
 })
 
 let index = 0;
 
-next.addEventListener('click', () => {
+frem.addEventListener('click', function() {
   index++;
-  prev.classList.add('show');
-  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+  tilbage.classList.add('show');
+  track.style.transform = `translateX(-${index * sliderWidth}px)`;
   
-  if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
-    next.classList.add('hide');
+  if (track.offsetWidth - (index * sliderWidth) < sliderWidth) {
+    frem.classList.add('hide');
   }
 })
 
-prev.addEventListener('click', () => {
+tilbage.addEventListener('click', function() {
   index--;
-  next.classList.remove('hide');
+  frem.classList.remove('hide');
   if (index === 0) {
-    prev.classList.remove('show');
+    tilbage.classList.remove('show');
   }
-  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+  track.style.transform = `translateX(-${index * sliderWidth}px)`;
 }) 
+

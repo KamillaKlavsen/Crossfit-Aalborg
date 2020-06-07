@@ -816,7 +816,7 @@ a:active {
     height: 350px;
 }
 
-.carousel-container {
+.slider-container {
     width: 76vw;
   margin: 0 12vw;
   padding-top: 50px;
@@ -824,20 +824,20 @@ a:active {
   position: relative;
 }
 
-.carousel-container .carousel-inner {
+.slider-container .slider-inner {
   overflow: hidden;
 }
-.carousel-container .track {
+.slider-container .track {
   display: inline-flex;
   transition: transform 0.5s;
 }
-.carousel-container .card-container {
+.slider-container .card-container {
   width: 19vw;
   flex-shrink: 0;
   height: 250px;
   padding-right: 1vw;
 }
-.carousel-container .card-container .card {
+.slider-container .card-container .card {
   width: 100%;
   height: 100%;
   background-color: var(--white);
@@ -865,16 +865,16 @@ button:focus {
     outline: none;
 }
 
-.nav .prev {
+.nav .tilbage {
   left: -80px;
 }
-.nav .prev.show {
+.nav .tilbage.show {
   display: block;
 }
-.nav .next {
+.nav .frem {
   right: -80px;
 }
-.nav .next.hide {
+.nav .frem.hide {
   display: none;
 }
 
