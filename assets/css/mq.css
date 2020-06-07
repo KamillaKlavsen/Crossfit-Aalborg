@@ -43,6 +43,10 @@
     }
 
     /*NAVIGATION*/
+    nav {
+        height: 72px;
+    }
+
     .nav-forside {
         background-color: var(--dark-section);
         position: static;
@@ -64,7 +68,9 @@
         display: block;
         padding: 15px 0;
     }
-
+    nav>ul>li>a {
+        padding: 22px 20px;
+    }
     nav>ul>li>ul {
         display: none;
         position: static;
@@ -76,12 +82,17 @@
     nav>ul>li:active>ul {
         display: block;
     }
+    
+    nav>ul>li>ul>li>a {
+        padding: 15px 15px;
+    }
+
     .burgerbar {
         display: block;
         position: absolute;
         top: 0;
         left: 0;
-        margin: 11px 20px;
+        padding: 12px 20px;
     }
 
     .burgerbar i {
