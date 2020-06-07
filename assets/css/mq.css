@@ -42,14 +42,55 @@
         margin-bottom: 20px;
     }
 
-    .button>a{
-        /* font-size: 10px; */
-    }
-
     /*NAVIGATION*/
     .nav-forside {
         background-color: var(--dark-section);
         position: static;
+    }
+
+    nav>img {
+        padding: 0px 39%;
+    }
+    nav>ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: var(--dark-section);
+        display: none;
+    }
+
+    nav>ul>li {
+        display: block;
+        padding: 15px 0;
+    }
+
+    nav>ul>li>ul {
+        display: none;
+        position: static;
+        background-color: rgb(68, 68, 68);
+        margin: 23px 0 0;
+        width: 100%;
+    }
+
+    nav>ul>li:active>ul {
+        display: block;
+    }
+    .burgerbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 11px 20px;
+    }
+
+    .burgerbar i {
+        font-size: 40px;
+        color: var(--white);
+    }
+
+    a:active {
+        background-color: var(--dark-section);
     }
 
     /*FOOTER*/
