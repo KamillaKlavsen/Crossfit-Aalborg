@@ -18,13 +18,16 @@
 
 <body>
     <nav>
-        <img src="assets/images/logo/logo-hvid.png" alt="CFAA lgo">
-        <ul>
+        <img src="assets/images/logo/logo-hvid.png" alt="CFAA logo">
+        <div class="burgerbar" onclick="burgerBar()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul id="mobileNav">
             <li>
                 <a href="index.html">Hjem</a>
             </li>
             <li>
-                <a href="nye_medlemmer.html">Ny hos CFAA</a>
+                <a>Ny hos CFAA</a>
                 <ul>
                     <li><a href="nye_medlemmer.html">Intro</a></li>
                     <li><a href="introforløb.html">Introforløb</a> </li>
@@ -44,7 +47,7 @@
                 </ul>
             </li>
             <li>
-                <a href="om_cfaa.html">Om CFAA</a>
+                <a>Om CFAA</a>
                 <ul>
                     <li><a href="om_cfaa.html">Om CFAA</a></li>
                     <li><a href="regler.html">Regler</a></li>
@@ -56,7 +59,6 @@
             <li><a href="shop.html">Shop</a></li>
             <li class="opret"><a href="#">Opret dig her</a></li>
             <li><a href="#" class="blue">Log ind</a></li>
-
         </ul>
     </nav>
     <div class="hero priser">
