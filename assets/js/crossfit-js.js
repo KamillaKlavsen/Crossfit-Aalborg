@@ -1,4 +1,3 @@
-
 // Bokse til at vise mere tekst når men klikker 
 let acc = document.getElementsByClassName("accordion");
 let i;
@@ -15,39 +14,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
-
-
-// Modal til holdbeskrivelser
-
-//ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
-
-let modalBtns = document.querySelectorAll('.modal-open');
-
-modalBtns.forEach(function(btn) {
-  btn.onclick = function(){
-    let modal = btn.getAttribute('data-modal');
-
-    document.getElementById(modal).style.display = 'block';
-  };
-});
-
-let closeBtns = document.querySelectorAll('.modal-close');
-
-closeBtns.forEach(function(btn){
-  btn.onclick = function(){
-    let modal = (btn.closest('.modal').style.display = 'none');
-  };
-});
-
-window.onclick = function(event){
-  if(event.target.className === 'modal'){
-    event.target.style.display = 'none';
-  }
-}
-
-
-// Billede slider 
+// Billed slider 
 
 const tilbage  = document.querySelector('.tilbage');
 const frem = document.querySelector('.frem');
@@ -80,4 +47,35 @@ tilbage.addEventListener('click', function() {
   }
   track.style.transform = `translateX(-${index * sliderWidth}px)`;
 }) 
+
+
+// Modal til holdbeskrivelser
+//ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
+
+let modalBtns = document.querySelectorAll('.modal-open');
+
+modalBtns.forEach(function(btn) {
+  btn.onclick = function(){
+    let modal = btn.getAttribute('data-modal');
+
+    document.getElementById(modal).style.display = 'block';
+  };
+});
+
+let closeBtns = document.querySelectorAll('.modal-close');
+
+closeBtns.forEach(function(btn){
+  btn.onclick = function(){
+    let modal = (btn.closest('.modal').style.display = 'none');
+  };
+});
+
+window.onclick = function(event){
+  if(event.target.className === 'modal'){
+    event.target.style.display = 'none';
+  }
+}
+
+
+
 

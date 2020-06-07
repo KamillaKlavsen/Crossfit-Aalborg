@@ -692,11 +692,52 @@ a:active {
     padding: 80px 12vw;
 }
 
-.dark-section>h3 {
-    color: var(--white);
-    text-align: center;
+.trænere {
+    width: 100%;
+    background-color: var(--dark-section);
 }
 
+.trænere>h2 {
+    color: var(--white);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.trænere .nav button {
+    background-color: var(--dark-section);
+    color: var(--white);
+}
+
+.trænere .card {
+    background-color: var(--beige) !important;
+}
+
+.ekstra {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.beige-box {
+    background-color: var(--beige);
+    width: 48%;
+    padding: 30px 5vw 30px 12vw;
+}
+
+.virksomheder {
+    display: flex;
+    line-height: 1.5;
+}
+
+.virksomheder p{
+    width: 50%;
+}
+
+.beige-box-right {
+    background-color: var(--beige);
+    width: 50%;
+    padding: 30px 12vw 30px 5vw;
+}
 /*------------------PERSONLIG TRÆNING------------------*/
 
 .personlig-træning {
@@ -809,7 +850,7 @@ a:active {
 
 
 
-/*       TEST        */
+/*       Slider        */
 .fordele {
     background-color: var(--beige);
     width: 100%;
@@ -817,9 +858,9 @@ a:active {
 }
 
 .slider-container {
-    width: 76vw;
+  width: 76vw;
   margin: 0 12vw;
-  padding-top: 50px;
+  padding: 50px 0;
   min-height: 200px;
   position: relative;
 }
@@ -834,7 +875,6 @@ a:active {
 .slider-container .card-container {
   width: 19vw;
   flex-shrink: 0;
-  height: 250px;
   padding-right: 1vw;
 }
 .slider-container .card-container .card {
