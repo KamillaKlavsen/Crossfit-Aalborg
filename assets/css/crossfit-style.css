@@ -810,22 +810,20 @@ a:active {
 
 
 /*       TEST        */
+.fordele {
+    background-color: var(--beige);
+    width: 100%;
+    height: 350px;
+}
+
 .carousel-container {
-  width: 1280px;
-  margin: 50px auto;
+    width: 76vw;
+  margin: 0 12vw;
+  padding-top: 50px;
   min-height: 200px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  .carousel-container {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .carousel-container {
-    width: 85%;
-  }
-}
+
 .carousel-container .carousel-inner {
   overflow: hidden;
 }
@@ -834,39 +832,47 @@ a:active {
   transition: transform 0.5s;
 }
 .carousel-container .card-container {
-  width: 259px;
+  width: 19vw;
   flex-shrink: 0;
   height: 250px;
-  padding-right: 15px;
-  box-sizing: border-box;
+  padding-right: 1vw;
 }
 .carousel-container .card-container .card {
   width: 100%;
   height: 100%;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border-radius: 10px;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
+
 .nav button {
   width: 60px;
   height: 60px;
-  border-radius: 50%;
-  border: 1px solid #aaa;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-20%);
   cursor: pointer;
+  background-color: var(--beige);
+  border: none;
 }
+
+button:active {
+    border-style: none;
+}
+
+button:focus {
+    outline: none;
+}
+
 .nav .prev {
-  left: -30px;
+  left: -80px;
 }
 .nav .prev.show {
   display: block;
 }
 .nav .next {
-  right: -30px;
+  right: -80px;
 }
 .nav .next.hide {
   display: none;
@@ -875,18 +881,8 @@ a:active {
 .card > * {
   flex: 1;
 }
-.card .img1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-}
-.card .info {
-  flex-basis: 40px;
-  background: #333;
-  color: #fff;
-  flex-grow: 0;
-  padding: 10px;
-  box-sizing: border-box;
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 50px;
 }
 

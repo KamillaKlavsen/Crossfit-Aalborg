@@ -47,20 +47,36 @@ window.onclick = function(event){
 }
 
 
-// TEST
+// Billede slider 
+
 const prev  = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
 const track = document.querySelector('.track');
 
-const carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+
+window.addEventListener('resize', () => {
+  carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+})
+
+let index = 0;
 
 next.addEventListener('click', () => {
-  track.style.transform = `translateX(-${carouselWidth}px)`;
+  index++;
+  prev.classList.add('show');
+  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+  
+  if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
+    next.classList.add('hide');
+  }
 })
-
 
 prev.addEventListener('click', () => {
-  track.style.transform = `translateX(-${0}px)`;
-})
-
+  index--;
+  next.classList.remove('hide');
+  if (index === 0) {
+    prev.classList.remove('show');
+  }
+  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+}) 
