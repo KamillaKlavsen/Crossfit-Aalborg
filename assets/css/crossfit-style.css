@@ -12,6 +12,11 @@ body {
     background-color: var(--light-bg);
 }
 
+.background {
+    background: url(../images/hero/CFAA.png) no-repeat center fixed;
+    background-size: 50%;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 90px;
