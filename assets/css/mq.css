@@ -52,7 +52,7 @@
         position: static;
     }
 
-    nav>img {
+    nav>a>img {
         padding: 0px 39%;
     }
     nav>ul {
@@ -183,16 +183,18 @@
     /*-------sektion tre bokse-----*/
     .three-boxes{
         height: 231px;
+        padding: 0;
     }
 
     .black-box{
-        height: 187px;
+        height: 160px;
         width: 32%;
-        padding: 100px 30px;
+        padding: 19% 2px;
         font-size: 15px;
-
     }
-
+    .two-lines {
+        padding-top: 16%;
+    }
 
 
 
