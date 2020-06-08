@@ -255,6 +255,20 @@
         box-shadow: none;
     }
 
+    #stepFigure {
+        display: none;
+    }
+
+    .info-mobil {
+        display: block;
+        width: 100%;
+    }
+    
+    .dark-section {
+        width: 100%;
+        background-color: var(--dark-section);
+        padding: 50px 12vw;
+    }
     /*------------------OM CFAA------------------*/
     /*------------------PERSONLIG TRÆNING------------------*/
     

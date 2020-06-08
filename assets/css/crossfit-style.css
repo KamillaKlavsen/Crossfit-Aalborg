@@ -801,6 +801,10 @@ button:focus {
     justify-content: space-between;
 }
 
+.info-mobil {
+    display: none;
+}
+
 /*------------------OM CFAA------------------*/
 
 .om-os {
