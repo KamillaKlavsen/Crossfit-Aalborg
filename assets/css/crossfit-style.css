@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -186,6 +188,22 @@ nav>ul>li>ul>li:hover {
 }
 
 /*------------------FOOTER------------------*/
+
+.to-top {
+    position: absolute;
+    right: 2%;
+    text-align: center;
+}
+
+.to-top i{
+    font-size: 50px;
+}
+
+.to-top p{
+    color: var(--light-bg);
+    margin: 0;
+}
+
 
 footer {
     height: 395px;
