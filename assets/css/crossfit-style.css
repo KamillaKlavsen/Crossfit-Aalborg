@@ -296,6 +296,24 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.doors {
+    display:flex;
+    margin: 20px 12vw 0;
+}
+
+.doors a {
+    color: var(--dark-section);
+}
+
+.doors p {
+    margin: 0 2px;
+}
+
+.door-active {
+    color: var(--dark-blue) !important;
+    font-weight: 700;
+}
+
 /*------------------FORSIDE------------------*/
 
 /*hero video*/
