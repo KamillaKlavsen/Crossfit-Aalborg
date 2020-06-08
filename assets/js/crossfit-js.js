@@ -14,6 +14,8 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+
+
 // Billed slider 
 
 const tilbage  = document.querySelector('.tilbage');
