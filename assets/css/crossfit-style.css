@@ -117,7 +117,7 @@ nav {
     z-index: 10;
 }
 
-nav>img {
+nav>a>img {
     height: 67px;
     padding-left: 20px;
 }
