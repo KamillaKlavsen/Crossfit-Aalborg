@@ -1,17 +1,3 @@
-// Burgerbar til mobil versionen
-function burgerBar() {
-  let burgerBar = document.getElementById("mobileNav");
-  if (burgerBar.style.display === "none") {
-    burgerBar.style.display = "block";
-  } else {
-    burgerBar.style.display = "none";
-  }
-}
-
-
-
-
-
 // Bokse til at vise mere tekst når men klikker 
 let acc = document.getElementsByClassName("accordion");
 let i;
@@ -90,6 +76,16 @@ window.onclick = function(event){
   }
 }
 
+
+// Burgerbar til mobil versionen
+function burgerBar() {
+  let burgerBar = document.getElementById("mobileNav");
+  if (burgerBar.style.display === "none") {
+    burgerBar.style.display = "block";
+  } else {
+    burgerBar.style.display = "none";
+  }
+}
 
 
 
