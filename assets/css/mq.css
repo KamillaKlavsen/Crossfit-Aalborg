@@ -275,6 +275,12 @@
         padding: 50px 12vw;
     }
     /*------------------OM CFAA------------------*/
+    .maps{
+        transform: translate(0, -34%);
+    }
+
+
+
     /*------------------PERSONLIG TRÆNING------------------*/
     
     .personlig-grid:nth-child(odd) {
