@@ -297,6 +297,10 @@
     .virksomheder p{
         width: 100%;
     }
+
+    .to-top {
+        left: 23px;
+    }
     /*------------------PERSONLIG TRÆNING------------------*/
     
     .personlig-grid:nth-child(odd) {
