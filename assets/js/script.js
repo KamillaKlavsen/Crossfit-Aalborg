@@ -15,42 +15,6 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-
-// Billed slider 
-
-const tilbage  = document.querySelector('.tilbage');
-const frem = document.querySelector('.frem');
-
-const track = document.querySelector('.track');
-
-let sliderWidth = document.querySelector('.slider-container').offsetWidth;
-
-window.addEventListener('resize', function()  {
-  sliderWidth = document.querySelector('.slider-container').offsetWidth;
-})
-
-let index = 0;
-
-frem.addEventListener('click', function() {
-  index++;
-  tilbage.classList.add('show');
-  track.style.transform = `translateX(-${index * sliderWidth}px)`;
-  
-  if (track.offsetWidth - (index * sliderWidth) < sliderWidth) {
-    frem.classList.add('hide');
-  }
-})
-
-tilbage.addEventListener('click', function() {
-  index--;
-  frem.classList.remove('hide');
-  if (index === 0) {
-    tilbage.classList.remove('show');
-  }
-  track.style.transform = `translateX(-${index * sliderWidth}px)`;
-}) 
-
-
 // Modal til holdbeskrivelser
 //ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
 
@@ -90,4 +54,38 @@ function burgerBar() {
 }
 
 
+
+// Billed slider 
+
+const tilbage  = document.querySelector('.tilbage');
+const frem = document.querySelector('.frem');
+
+const track = document.querySelector('.track');
+
+let sliderWidth = document.querySelector('.slider-container').offsetWidth;
+
+window.addEventListener('resize', function()  {
+  sliderWidth = document.querySelector('.slider-container').offsetWidth;
+})
+
+let index = 0;
+
+frem.addEventListener('click', function() {
+  index++;
+  tilbage.classList.add('show');
+  track.style.transform = `translateX(-${index * sliderWidth}px)`;
+  
+  if (track.offsetWidth - (index * sliderWidth) < sliderWidth) {
+    frem.classList.add('hide');
+  }
+})
+
+tilbage.addEventListener('click', function() {
+  index--;
+  frem.classList.remove('hide');
+  if (index === 0) {
+    tilbage.classList.remove('show');
+  }
+  track.style.transform = `translateX(-${index * sliderWidth}px)`;
+}) 
 
