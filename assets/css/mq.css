@@ -342,6 +342,28 @@
     .medlemspris {
         margin-top: 10px;
     }
+
+    /*Special cases*/
+    
+    .klip-pris, .klip-btn,.drop-btn, .drop-pris{
+        transform: translate(0);
+    }
+    
+    .medlem-btn{
+        transform: translate(0);
+    }
+    
+    .virksomhed-btn{
+        transform: translate(0);
+    }
+
+    .blue-box div{
+        transform: translate(0);
+    }
+
+    /*----*/
+
+
     .fordele {
         height: 360px;
     }

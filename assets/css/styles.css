@@ -494,6 +494,19 @@ a:hover {
     font-family: 'Oswald', sans-serif;
 }
 
+/*Special cases*/
+.klip-pris, .klip-btn,.drop-btn, .drop-pris{
+    transform: translate(0, 8vh);
+}
+
+.medlem-btn{
+    transform: translate(0, 6vh);
+}
+
+.virksomhed-btn{
+    transform: translate(0, 17vh);
+}
+
 .pris-box div > a {
     padding: 13px 2vw;
 }
@@ -519,6 +532,7 @@ a:hover {
     border-radius: 50%;
     background-color: #000;
     margin: 40px auto;
+    transform: translate(0, 5vh);
 } 
 
 .blue-box .fa-chevron-right {
