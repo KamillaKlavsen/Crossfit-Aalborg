@@ -9,12 +9,12 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--light-bg);
 }
 
 .background {
     background: url(../images/hero/CFAA.png) no-repeat center fixed;
     background-size: 50%;
+    background-color: var(--light-bg);
 }
 
 h1 {
