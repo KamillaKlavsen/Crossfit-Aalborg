@@ -494,7 +494,7 @@ a:hover {
     font-family: 'Oswald', sans-serif;
 }
 
-/*Special cases*/
+/*special cases*/
 .klip-pris, .klip-btn,.drop-btn, .drop-pris{
     transform: translate(0, 8vh);
 }
@@ -957,6 +957,18 @@ button:focus {
 .personlig-grid:nth-child(even) {
     padding: 5% 12vw 5% 5vw;
 }
+
+/*special cases*/
+.træning-pris{
+    transform: translateY(11vh);
+}
+.par-pris{
+    transform: translateY(8vh);
+}
+.træning-tekst{
+    transform: translateY(8.5vh);
+}
+/*----*/
 
 .personlig1 {
     grid-area: personlig1;

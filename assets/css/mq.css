@@ -324,6 +324,17 @@
         padding: 0 10vw;
     }
 
+    /*special cases*/
+    .træning-pris{
+        transform: translateY(0);
+    }
+    .par-pris{
+        transform: translateY(0);
+    }
+    .træning-tekst{
+        transform: translateY(0);
+    }
+
     
     /*------------------PRISER------------------*/
 
