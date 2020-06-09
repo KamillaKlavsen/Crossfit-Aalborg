@@ -908,6 +908,10 @@ button:focus {
     width: 50%;
     padding: 30px 12vw 30px 5vw;
 }
+
+.beige-box-right .button {
+    margin-bottom: 40px;
+}
 /*------------------PERSONLIG TRÆNING------------------*/
 
 .personlig-træning {
