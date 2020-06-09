@@ -285,8 +285,24 @@
         transform: translate(0, -34%);
     }
 
+    .ekstra {
+        display: block;
+        margin: 50px 0 0;
+    }
+
+    .beige-box, .beige-box-right{
+        width: 100%;
+        padding: 30px 12vw 30px 12vw;
+    }
 
 
+    .virksomheder {
+        display: block;
+    }
+
+    .virksomheder p{
+        width: 100%;
+    }
     /*------------------PERSONLIG TRÆNING------------------*/
     
     .personlig-grid:nth-child(odd) {
@@ -299,7 +315,11 @@
         background-color: var(--white);
     }
 
+    .personlig-træning h1, .virksomhed h1 {
+        padding: 0 10vw;
+    }
 
+    
     /*------------------PRISER------------------*/
 
     .pris-box {
@@ -316,6 +336,9 @@
 
     .medlemspris {
         margin-top: 10px;
+    }
+    .fordele {
+        height: 360px;
     }
 
     .slider-container .card-container{
