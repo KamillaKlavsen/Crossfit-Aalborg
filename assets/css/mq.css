@@ -306,6 +306,8 @@
     .to-top {
         left: 23px;
     }
+
+
     /*------------------PERSONLIG TRÆNING------------------*/
     
     .personlig-grid:nth-child(odd) {
@@ -366,7 +368,7 @@
 
     /*------------------REGLER------------------*/
     .show-more {
-        margin: 30px 12vw;
+        margin: 30px 10px;
     }
 
     ol {
