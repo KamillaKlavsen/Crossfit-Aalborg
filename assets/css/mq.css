@@ -253,6 +253,12 @@
     /*------------------HOLDPLAN------------------*/
     /*------------------INTROFORLØB------------------*/
     /*------------------KOSTVEJLEDNING------------------*/
+    .kost-btn{
+        transform: translateY(0);
+    }
+    .kost-tekst{
+        transform: translateY(0);
+    }
     /*------------------MEDLEMSBETINGELSER------------------*/
     /*------------------NYE MEDLEMMER------------------*/
     .buttons {

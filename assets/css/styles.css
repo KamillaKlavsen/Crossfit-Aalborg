@@ -791,6 +791,12 @@ button:focus {
 .kostvejledning {
     background-image: url('../images/hero/hero-billede2.png');
 }
+.kost-btn{
+    transform: translateY(17vh);
+}
+.kost-tekst{
+    transform: translateY(10vh);
+}
 
 /*------------------MEDLEMSBETINGELSER------------------*/
 
