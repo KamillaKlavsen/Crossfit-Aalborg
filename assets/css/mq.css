@@ -145,6 +145,12 @@
         height: 146px;
     }
 
+    /*doors*/
+    .doors {
+        margin: 20px 6vw 0;
+    }
+    
+
     /*------------------FORSIDE------------------*/
     .fa-arrow-down {
         display: none;
