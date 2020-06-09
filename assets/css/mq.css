@@ -295,8 +295,6 @@
 
 
     /*------------------PRISER------------------*/
-    
-    /* skal selfølgelig vises, det er bare mens jeg redigere resten af siden */
 
     .pris-box {
         padding: 0 12vw;
@@ -312,6 +310,26 @@
 
     .medlemspris {
         margin-top: 10px;
+    }
+
+    .slider-container .card-container{
+        width: 38vw;
+    }
+
+    .fordele-img{
+        width: 20vw;
+    }
+
+    .nav button {
+        width: fit-content;
+        top: 44%;
+    }
+
+    .nav .tilbage {
+        left: -45px;
+    }
+    .nav .frem {
+        right: -45px;
     }
 
     /*------------------REGLER------------------*/
