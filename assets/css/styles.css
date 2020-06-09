@@ -852,6 +852,10 @@ button:focus {
     background-image: url(../images/hero/hero-billede8.png);
 }
 
+.om-os-box {
+    height: 88vh;
+}
+
 .dark-section {
     width: 100%;
     background-color: var(--dark-section);
