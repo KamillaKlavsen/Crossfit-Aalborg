@@ -619,10 +619,13 @@ button:focus {
 .fa-chevron-left, .fa-chevron-right {
     font-size: 50px;
 }
-
-.fordele-img{
+/* .fordele-img{
     width: 6vw;
     
+} */
+
+.rabat{
+    transform: translateY(4vh);
 }
 
 /*------------------GIRLS BOOTCAMP------------------*/
