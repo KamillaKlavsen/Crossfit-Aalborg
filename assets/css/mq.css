@@ -305,6 +305,9 @@
     .medlemspris {
         margin-top: 10px;
     }
+    .fordele {
+        height: 360px;
+    }
 
     .slider-container .card-container{
         width: 38vw;
