@@ -429,7 +429,6 @@ a:hover {
 
 .black-box {
     background-color: #0B0F18;
-    /*laves responsivt*/
     height: 260px;
     width: 32%;
     padding: 100px 30px;
@@ -438,6 +437,7 @@ a:hover {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
+    transition: ease-in .2s;
 }
 
 .two-lines {
