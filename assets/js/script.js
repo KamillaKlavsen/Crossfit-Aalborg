@@ -18,7 +18,7 @@ for (i = 0; i < acc.length; i++) {
 // Modal til holdbeskrivelser
 //ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
 
-let modalBtns = document.querySelectorAll('.hold-modal');
+let modalBtns = document.querySelectorAll('.modal-open');
 
 modalBtns.forEach(function(btn) {
   btn.onclick = function(){
@@ -28,7 +28,7 @@ modalBtns.forEach(function(btn) {
   };
 });
 
-let closeBtns = document.querySelectorAll('.hold-modal-close');
+let closeBtns = document.querySelectorAll('.modal-close');
 
 closeBtns.forEach(function(btn){
   btn.onclick = function(){
