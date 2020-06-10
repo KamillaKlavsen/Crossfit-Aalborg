@@ -16,8 +16,6 @@ for (i = 0; i < udvid.length; i++) {
 
 
 // Modal til holdbeskrivelser
-//ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
-
 let openBtns = document.querySelectorAll('.modal-open');
 
 openBtns.forEach(function(btn) {
