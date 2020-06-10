@@ -1,15 +1,15 @@
 // Bokse til at vise mere tekst når men klikker 
-let acc = document.getElementsByClassName("accordion");
+let udvid = document.getElementsByClassName("udvid");
 let i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+for (i = 0; i < udvid.length; i++) {
+  udvid[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    let panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    let tekst = this.nextElementSibling;
+    if (tekst.style.display === "block") {
+      tekst.style.display = "none";
     } else {
-      panel.style.display = "block";
+      tekst.style.display = "block";
     }
   });
 }

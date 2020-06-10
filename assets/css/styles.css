@@ -819,7 +819,7 @@ button:focus {
     margin: 50px 12vw;
 }
 
-.accordion {
+.udvid {
     background-color: var(--beige);
     color: black;
     cursor: pointer;
@@ -832,7 +832,7 @@ button:focus {
     margin-bottom: 10px;
 }
 
-.active, .accordion:hover {
+.active, .udvid:hover {
     background-color: #E8DFD8;
 }
 
