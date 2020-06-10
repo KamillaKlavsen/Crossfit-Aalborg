@@ -201,7 +201,18 @@ nav>ul>li>ul>li:hover {
     position: absolute;
     right: 5%;
     text-align: center;
+    margin-top: -60px;
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
 
 .to-top i{
     font-size: 50px;
