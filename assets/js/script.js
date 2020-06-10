@@ -18,9 +18,9 @@ for (i = 0; i < udvid.length; i++) {
 // Modal til holdbeskrivelser
 //ved hjælp fra følgende video https://www.youtube.com/watch?v=Ifx85VUGQIY
 
-let modalBtns = document.querySelectorAll('.modal-open');
+let openBtns = document.querySelectorAll('.modal-open');
 
-modalBtns.forEach(function(btn) {
+openBtns.forEach(function(btn) {
   btn.onclick = function(){
     let modal = btn.getAttribute('data-modal');
 
@@ -28,9 +28,9 @@ modalBtns.forEach(function(btn) {
   };
 });
 
-let closeBtns = document.querySelectorAll('.modal-close');
+let lukBtns = document.querySelectorAll('.modal-close');
 
-closeBtns.forEach(function(btn){
+lukBtns.forEach(function(btn){
   btn.onclick = function(){
     let modal = (btn.closest('.modal').style.display = 'none');
   };
