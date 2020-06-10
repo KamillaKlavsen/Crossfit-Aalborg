@@ -28,7 +28,7 @@ openBtns.forEach(function(btn) {
   };
 });
 
-let lukBtns = document.querySelectorAll('.modal-close');
+let lukBtns = document.querySelectorAll('.modal-luk');
 
 lukBtns.forEach(function(btn){
   btn.onclick = function(){
