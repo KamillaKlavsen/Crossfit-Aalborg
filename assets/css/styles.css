@@ -713,7 +713,7 @@ button:focus {
 
 /*MODAL*/
 
-.modal {
+.hold-modal {
     display: none;
     position: fixed;
     top: 0;
@@ -734,7 +734,7 @@ button:focus {
     z-index: 10;
 }
 
-.modal-close{
+.hold-modal-close{
     float: right;
     font-size: 20px;
     color: var(--dark-section);
@@ -743,7 +743,7 @@ button:focus {
     padding: 5px 8px;
 }
 
-.modal-body {
+.modal-text {
     padding: 5vw;
     line-height: 3.5vh;
 }
