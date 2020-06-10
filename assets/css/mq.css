@@ -202,10 +202,10 @@
         padding-top: 16%;
     }
 
-
-
-
     /*------------------GIRL'S BOOTCAMP------------------*/
+    .girls-boot {
+        background-image: url(../images/hero/hero-billede7-kopi.png);
+    }
     /*------------------HANDELSBETINGELSER------------------*/
     .grid-handel {
         display: block;
@@ -246,12 +246,17 @@
         margin: 30% 7%;
     }
 
-   
+    .holdbeskriv {
+        background-image: url(../images/hero/hero-billede3-kopi.png);
+    }
 
 
 
     /*------------------HOLDPLAN------------------*/
     /*------------------INTROFORLØB------------------*/
+    .nye-medlemmer {
+        background-image: url(../images/hero/hero-billede1-kopi.png);
+    }
     /*------------------KOSTVEJLEDNING------------------*/
     .kost-btn{
         transform: translateY(0);
@@ -261,6 +266,10 @@
     }
     /*------------------MEDLEMSBETINGELSER------------------*/
     /*------------------NYE MEDLEMMER------------------*/
+    .nye-medlemmer {
+        background-image: url(../images/hero/hero-billede1-kopi.png);
+    }
+
     .buttons {
         display: none;
     }
@@ -309,9 +318,6 @@
         width: 100%;
     }
 
-    .to-top {
-        left: 23px;
-    }
 
 
     /*------------------PERSONLIG TRÆNING------------------*/
@@ -449,9 +455,15 @@
 
 
     /*------------------VIRKSOMHED------------------*/
+    .virksomhed {
+        background-image: url(../images/hero/hero-billede7-kopi.png);
+    }
+
 
     /*------------------VORES TRÆNING------------------*/
-
+    .træning {
+        background-image: url(../images/hero/hero-billede7-kopi.png);
+    }
 
 
 
