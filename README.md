@@ -1,3 +1,5 @@
-# Crossfit-Aalborg'
+# Crossfit-Aalborg
 
-Eksamensprojekt på 2. semester i samarbejde med Crossfit Aalborg
+2. semester project exam on Multimedia Design. Collaboration with Crossfit Aalborg. 
+
+
